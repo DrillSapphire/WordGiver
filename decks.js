@@ -1,6 +1,6 @@
 // decks.js
 
-const decksVersion = "v07b";
+const decksVersion = "v09";
 
 // --- DATABASE ---
 const decks = {
@@ -115,16 +115,27 @@ const decks = {
         { q: "Category: Tool", q_th: "หมวดหมู่: เครื่องมือ", a: "Wrench", a_th: "ประแจ" },
 
         // --- VEHICLE ---
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Airplane", a_th: "เครื่องบิน" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Ambulance", a_th: "รถพยาบาล" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Bicycle", a_th: "จักรยาน" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Bus", a_th: "รถประจำทาง" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Destroyer", a_th: "เรือพิฆาต" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Drone", a_th: "โดรน" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Fire Truck", a_th: "รถดับเพลิง" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Helicopter", a_th: "เฮลิคอปเตอร์" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Hot Air Balloon", a_th: "บอลลูน" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Hovercraft", a_th: "เรือโฮเวอร์คราฟต์" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Jet Ski", a_th: "เจ็ตสกี" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Motorcycle", a_th: "รถจักรยานยนต์" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Snowmobile", a_th: "รถสโนว์โมบิล" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Speedboat", a_th: "เรือเร็ว" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Submarine", a_th: "เรือดำน้ำ" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Tank", a_th: "รถถัง" },
         { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Tractor", a_th: "รถแทรกเตอร์" },
-        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Train", a_th: "รถไฟ" }
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Train", a_th: "รถไฟ" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Tricycle", a_th: "รถสามล้อ" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Tuk Tuk", a_th: "รถตุ๊กตุ๊ก" },
+        { q: "Category: Vehicle", q_th: "หมวดหมู่: ยานพาหนะ", a: "Yacht", a_th: "เรือยอชต์" }
     ],
     words_extreme: [
         { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Ballistics", a_th: "ขีปนาวุธ" },
@@ -133,7 +144,7 @@ const decks = {
         { q: "Category: Action", q_th: "หมวดหมู่: การกระทำ", a: "Espionage", a_th: "การจารกรรม" },
         { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Cryptography", a_th: "วิทยาการเข้ารหัสลับ" },
         { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Thermodynamics", a_th: "อุณหพลศาสตร์" },
-        { q: "Category: Phenomenon", q_th: "หมวดหมู่: ปรากฏการณ์", a: "Interference", a_th: "การแทรกสอด" },
+        { q: "Category: Phenomenon", q_th: "หมวดหมู่: ปรากฏการณ์", a: "Interference", a_th: "การแทรกสอด/คลื่นแทรก" },
         { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Trajectory", a_th: "วิถีโค้ง" },
         { q: "Category: Action", q_th: "หมวดหมู่: การกระทำ", a: "Sabotage", a_th: "การก่อวินาศกรรม" },
         { q: "Category: Emotion", q_th: "หมวดหมู่: อารมณ์", a: "Paranoia", a_th: "ความหวาดระแวง" },
@@ -150,7 +161,7 @@ const decks = {
         { q: "Category: Phenomenon", q_th: "หมวดหมู่: ปรากฏการณ์", a: "Echo", a_th: "เสียงสะท้อน" },
         { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Aerodynamics", a_th: "อากาศพลศาสตร์" },
         { q: "Category: Action", q_th: "หมวดหมู่: การกระทำ", a: "Mutiny", a_th: "การก่อกบฏ" },
-        { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Deflection", a_th: "การเบี่ยงเบน" },
+        { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Deflection", a_th: "การเบี่ยงเบน (ทิศทาง)" },
         { q: "Category: Event", q_th: "หมวดหมู่: เหตุการณ์", a: "Extinction", a_th: "การสูญพันธุ์" },
         { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Inertia", a_th: "ความเฉื่อย" },
         { q: "Category: Concept", q_th: "หมวดหมู่: แนวคิด", a: "Frequency", a_th: "ความถี่" },
