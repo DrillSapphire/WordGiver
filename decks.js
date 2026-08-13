@@ -1,6 +1,6 @@
 // decks.js
 
-const decksVersion = "v10a";
+const decksVersion = "v11";
 
 // --- DATABASE ---
 const decks = {
