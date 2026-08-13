@@ -1,6 +1,6 @@
 // decks.js
 
-const decksVersion = "v09";
+const decksVersion = "v10";
 
 // --- DATABASE ---
 const decks = {
@@ -16,7 +16,7 @@ const decks = {
         { q: "Category: Animal", q_th: "หมวดหมู่: สัตว์", a: "Penguin", a_th: "นกเพนกวิน" },
         { q: "Category: Animal", q_th: "หมวดหมู่: สัตว์", a: "Shark", a_th: "ฉลาม" },
         { q: "Category: Animal", q_th: "หมวดหมู่: สัตว์", a: "Tiger", a_th: "เสือ" },
-		{ q: "Category: Animal", q_th: "หมวดหมู่: สัตว์", a: "Panda", a_th: "แพนด้า" },
+	{ q: "Category: Animal", q_th: "หมวดหมู่: สัตว์", a: "Panda", a_th: "แพนด้า" },
 
         // --- FOOD ---
         { q: "Category: Food", q_th: "หมวดหมู่: อาหาร", a: "Avocado", a_th: "อะโวคาโด" },
@@ -192,15 +192,21 @@ const decks = {
     fic_char: [
 		// ANIME & MANGA (อนิเมะ/มังงะ)
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Doraemon", a_th: "โดราเอมอน" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Dekisugi", a_th: "เดคิซึงิ (Doraemon)" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Son Goku", a_th: "ซง โกคู" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Astro Boy", a_th: "เจ้าหนูอะตอม" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Piccolo", a_th: "พิโกโร่ (DragonBall Z)" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Tiger Mask", a_th: "หน้ากากเสือ" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Conan Edogawa", a_th: "โคนัน" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Monkey D. Luffy", a_th: "มังกี้ ดี ลูฟี่" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Naruto Uzumaki", a_th: "นารูโตะ" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Crayon Shin-chan", a_th: "ชินจัง" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Sailor Moon", a_th: "เซเลอร์มูน" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Muto Yugi", a_th: "มูโต้ ยูกิ" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Saitama (One-Punch Man)", a_th: "ไซตามะ" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Satoru Gojo", a_th: "ซาโตรุ โกโจ" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Tanjiro Kamado", a_th: "ทันจิโร่ คามาโดะ" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Muzan Kibutsuji", a_th: "มุซัน (Demon Slayer)" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "L (Death Note)", a_th: "แอล (Death Note)" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Levi Ackerman", a_th: "รีไวล์ แอคเคอร์แมน (Attack on Titan)" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Eren Yeager", a_th: "เอเรน เยเกอร์ (Attack on Titan)" },
@@ -208,13 +214,24 @@ const decks = {
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Ichigo Kurosaki", a_th: "อิจิโกะ คุโรซากิ" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Roronoa Zoro", a_th: "โรโรโนอา โซโร" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Kakashi Hatake", a_th: "ฮาตาเกะ คาคาชิ" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Trafalgar D. Water Law", a_th: "ทรัลฟาก้า ดี วอเตอร์ ลอว" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Arale Norimaki", a_th: "หนูน้อย อาราเล่" },
 		{ q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Anya Forger", a_th: "อาเนีย ฟอร์เจอร์" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Kenshiro", a_th: "เคนชิโร่ ( the Fist of the North Star)" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Star Platinum", a_th: "สตาร์ แพลตตินั่ม ( Jojo Bizarre Adventure)" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Dio Brando", a_th: "ดิโอ (Jojo Bizarre Adventure)" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Maruko", a_th: "มารุโกะ" },
+                { q: "Who am I? (Anime/Manga)", q_th: "ฉันคือใคร? (อนิเมะ/มังงะ)", a: "Shenron", a_th: "เทพเจ้ามังกร (DragonBall Z)" },
 		{ q: "Who am I? (Anime/Movie)", q_th: "ฉันคือใคร? (อนิเมะ/ภาพยนตร์)", a: "Totoro", a_th: "โตโตโร่" },
 		{ q: "Who am I? (Video Game/Anime)", q_th: "ฉันคือใคร? (วิดีโอเกม/อนิเมะ)", a: "Pikachu", a_th: "พิกาจู" },
+                
 
 		// VIDEO GAMES (วิดีโอเกม)
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Mario", a_th: "มาริโอ้" },
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Sonic the Hedgehog", a_th: "โซนิค" },
+                { q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Rock Man", a_th: "ร็อคแมน" },
+                { q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Steve", a_th: "สตีฟ (Minecraft)" },
+                { q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Agent 47", a_th: "เอเจ่น47 (Hitman)" },
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Pac-Man", a_th: "แพ็กแมน" },
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Master Chief", a_th: "มาสเตอร์ชีฟ (Halo)" },
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Kratos", a_th: "เครโทส (God of War)" },
@@ -224,10 +241,13 @@ const decks = {
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Donkey Kong", a_th: "ดองกี้คอง" },
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Crash Bandicoot", a_th: "แครช แบนดิคูต" },
 		{ q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Ryu", a_th: "ริว (Street Fighter)" },
+                { q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Yorn", a_th: "ยอร์น (ROV)" },
+                { q: "Who am I? (Video Game)", q_th: "ฉันคือใคร? (วิดีโอเกม)", a: "Cloud Strife", a_th: "คราว สไตร์ฟ (Final Fantasy 7)" },
 
 		// SUPERHEROES & COMIC CHARACTERS (ซูเปอร์ฮีโร่และคอมมิก)
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Spider-Man", a_th: "สไปเดอร์แมน" },
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Batman", a_th: "แบทแมน" },
+                { q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Robin", a_th: "โรบิน" },
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Superman", a_th: "ซูเปอร์แมน" },
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Iron Man", a_th: "ไอรอนแมน" },
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Captain America", a_th: "กัปตันอเมริกา" },
@@ -239,6 +259,12 @@ const decks = {
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Black Panther", a_th: "แบล็คแพนเธอร์" },
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Aquaman", a_th: "อควาแมน" },
 		{ q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Black Widow", a_th: "แบล็ค วิโดว์" },
+                { q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Scarlet Witch", a_th: "สกาเล็ต วิช" },
+                { q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Vision", a_th: "วิชั่น" },
+                { q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Hell Boy", a_th: "เฮลบอย" },
+                { q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Mark Grayson", a_th: "มาร์ค เกรย์สัน (Invincible)" },
+                { q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Omni-Man", a_th: "ออมนิแมน (Invincible)" },
+                { q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)", a: "Dr. Manhattan", a_th: "ดอกเตอร์ แมนฮัตตัน" },
 		{ q: "Who am I? (Comic Villain)", q_th: "ฉันคือใคร? (วายร้ายคอมมิก)", a: "Harley Quinn", a_th: "ฮาร์ลีย์ ควินน์" },
 		{ q: "Who am I? (Comic Villain)", q_th: "ฉันคือใคร? (วายร้ายคอมมิก)", a: "Venom", a_th: "เวนอม" },
 		{ q: "Who am I? (Comic Villain)", q_th: "ฉันคือใคร? (วายร้ายคอมมิก)", a: "Thanos", a_th: "ทานอส" },
@@ -249,6 +275,7 @@ const decks = {
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Elsa", a_th: "เอลซ่า" },
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Mickey Mouse", a_th: "มิกกี้ เมาส์" },
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Buzz Lightyear", a_th: "บัซ ไลท์เยียร์" },
+                { q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Lightning McQueen", a_th: "ไลนิ่ง แมคควีน" },
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Shrek", a_th: "เชร็ค" },
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Minions", a_th: "มินเนี่ยน" },
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "SpongeBob SquarePants", a_th: "สพันจ์บ็อบ" },
@@ -265,13 +292,16 @@ const decks = {
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Daffy Duck", a_th: "แดฟฟี ดั๊ก" },
 		{ q: "Who am I? (Western Animation)", q_th: "ฉันคือใคร? (แอนิเมชันตะวันตก)", a: "Popeye", a_th: "ป๊อปอาย" },
 		{ q: "Who am I? (Comic/Animation)", q_th: "ฉันคือใคร? (คอมมิก/แอนิเมชัน)", a: "Garfield", a_th: "กาฟิลด์" },
+                { q: "Who am I? (Comic/Animation)", q_th: "ฉันคือใคร? (คอมมิก/แอนิเมชัน)", a: "Ben Tennyson", a_th: "เบ็น 10" },
 		{ q: "Who am I? (Literature/Animation)", q_th: "ฉันคือใคร? (วรรณกรรม/แอนิเมชัน)", a: "Winnie the Pooh", a_th: "วินนีเดอะพูห์" },
+                                { q: "Who am I? (Literature/Animation)", q_th: "ฉันคือใคร? (แอนิเมชัน)", a: "ก้านกล้วย", a_th: "ก้านกล้วย" },
 
 		// MOVIES & TV SERIES (ภาพยนตร์ และ ซีรีส์)
 		{ q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "Darth Vader", a_th: "ดาร์ธ เวเดอร์" },
 		{ q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "Yoda", a_th: "โยดา" },
 		{ q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "Luke Skywalker", a_th: "ลุค สกายวอล์คเกอร์" },
 		{ q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "Chewbacca", a_th: "ชิวแบคคา" },
+                { q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "Captain Picard", a_th: "กัปตัน พิคาร์ด" },
 		{ q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "Marty McFly", a_th: "มาร์ตี้ แมคฟลาย" },
 		{ q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "E.T. the Extra-Terrestrial", a_th: "อีที" },
 		{ q: "Who am I? (Sci-Fi Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์ไซไฟ)", a: "The Terminator", a_th: "เทอร์มิเนเตอร์ / คนเหล็ก" },
@@ -286,6 +316,10 @@ const decks = {
 		{ q: "Who am I? (Movie/Monster)", q_th: "ฉันคือใคร? (ภาพยนตร์/สัตว์ประหลาด)", a: "King Kong", a_th: "คิงคอง" },
 		{ q: "Who am I? (Horror Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์สยองขวัญ)", a: "Freddy Krueger", a_th: "เฟรดดี้ ครูเกอร์" },
 		{ q: "Who am I? (Horror Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์สยองขวัญ)", a: "Jason Voorhees", a_th: "เจสัน วอร์ฮีส์" },
+                { q: "Who am I? (Horror Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์สยองขวัญ)", a: "Annabelle", a_th: "แอนนาเบลล์" },
+                { q: "Who am I? (Horror Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์สยองขวัญ)", a: "The Nun", a_th: "ผี แม่ชี" },
+                { q: "Who am I? (Horror Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์สยองขวัญ)", a: "Sadako", a_th: "ซาดาโกะ (The Ring)" },
+                { q: "Who am I? (Horror Movie)", q_th: "ฉันคือใคร? (ภาพยนตร์สยองขวัญ)", a: "Kayako", a_th: "คายาโกะ (Ju On)" },
 		{ q: "Who am I? (Movie/TV Series)", q_th: "ฉันคือใคร? (ภาพยนตร์/ซีรีส์)", a: "Wednesday Addams", a_th: "เวนส์เดย์ แอดดัมส์" },
 		{ q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์โทรทัศน์)", a: "Mr. Bean", a_th: "มิสเตอร์บีน" },
 
@@ -293,9 +327,11 @@ const decks = {
 		{ q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Harry Potter", a_th: "แฮร์รี่ พอตเตอร์" },
 		{ q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Lord Voldemort", a_th: "ลอร์ด โวลเดอมอร์" },
 		{ q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Hermione Granger", a_th: "เฮอร์ไมโอนี่ เกรนเจอร์" },
+                { q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Draco Malfoy", a_th: "เดรโก มัลฟอย" },
 		{ q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Albus Dumbledore", a_th: "อัลบัส ดัมเบิลดอร์" },
 		{ q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Katniss Everdeen", a_th: "แคตนิส เอเวอร์ดีน" },
 		{ q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Willy Wonka", a_th: "วิลลี่ วองก้า" },
+                { q: "Who am I? (Novel/Movie)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Paul Atreides", a_th: "พอล อะเทรดีส (Dune)" },
 		{ q: "Who am I? (Fantasy Novel/Movie)", q_th: "ฉันคือใคร? (นิยายแฟนตาซี/ภาพยนตร์)", a: "Frodo Baggins", a_th: "โฟรโด แบ๊กกิ้นส์" },
 		{ q: "Who am I? (Fantasy Novel/Movie)", q_th: "ฉันคือใคร? (นิยายแฟนตาซี/ภาพยนตร์)", a: "Gandalf", a_th: "แกนดาล์ฟ" },
 		{ q: "Who am I? (Fantasy Novel/Movie)", q_th: "ฉันคือใคร? (นิยายแฟนตาซี/ภาพยนตร์)", a: "Legolas", a_th: "เลโกลัส" },
@@ -305,6 +341,9 @@ const decks = {
 		{ q: "Who am I? (Classic Novel)", q_th: "ฉันคือใคร? (นิยายคลาสสิก)", a: "Frankenstein", a_th: "แฟรงเกนสไตน์" },
 		{ q: "Who am I? (Classic Novel/Folklore)", q_th: "ฉันคือใคร? (นิยายคลาสสิก/ตำนาน)", a: "Count Dracula", a_th: "แดร็กคูล่า" },
 		{ q: "Who am I? (Novel/Animation)", q_th: "ฉันคือใคร? (นิยาย/แอนิเมชัน)", a: "Tarzan", a_th: "ทาร์ซาน" },
+                { q: "Who am I? (Novel/TV Series)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "John Snow", a_th: "จอน สโนว์ (Game of Throne)" },
+                { q: "Who am I? (Novel/TV Series)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Daenerys Targaryen", a_th: "แม่มังกร (Game of Throne)" },
+                { q: "Who am I? (Novel/TV Series)", q_th: "ฉันคือใคร? (นิยาย/ภาพยนตร์)", a: "Night King", a_th: "ไนท์คิง (Game of Throne)" },
 
 		// FAIRY TALES & FOLKLORE (เทพนิยาย และ ตำนานพื้นบ้าน)
 		{ q: "Who am I? (Fairy Tale/Animation)", q_th: "ฉันคือใคร? (เทพนิยาย/แอนิเมชัน)", a: "Cinderella", a_th: "ซินเดอเรลล่า" },
@@ -346,6 +385,7 @@ const decks = {
 		{ q: "Who am I? (Mascot)", q_th: "ฉันคือใคร? (มาสคอต)", a: "My Melody", a_th: "มายเมโลดี้" },
 		{ q: "Who am I? (Mascot)", q_th: "ฉันคือใคร? (มาสคอต)", a: "Cinnamoroll", a_th: "ชินนามอนโรล" },
 		{ q: "Who am I? (Toy/Mascot)", q_th: "ฉันคือใคร? (ของเล่น/มาสคอต)", a: "Labubu", a_th: "ลาบูบู้" },
+                { q: "Who am I? (Toy/Mascot)", q_th: "ฉันคือใคร? (ของเล่น/มาสคอต)", a: "Cry Baby", a_th: "คราย เบบี้" },
 		{ q: "Who am I? (Toy/Animation)", q_th: "ฉันคือใคร? (ของเล่น/แอนิเมชัน)", a: "Care Bears", a_th: "แคร์แบร์" },
 		{ q: "Who am I? (Toy)", q_th: "ฉันคือใคร? (ของเล่น)", a: "Lego Minifigure", a_th: "ตัวต่อเลโก้" },
 		{ q: "Who am I? (Toy/Animation)", q_th: "ฉันคือใคร? (ของเล่น/แอนิเมชัน)", a: "Mr. Potato Head", a_th: "มิสเตอร์ โปเตโต้เฮด" },
@@ -366,6 +406,14 @@ const decks = {
     	// --- FAMOUS REAL PERSONS ---
 		// ACTORS & DIRECTORS
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Jackie Chan", a_th: "เฉินหลง / แจ็คกี้ ชาน" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Robert Pattinson", a_th: "โรเบิร์ต แพททินสัน" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Liam Neeson", a_th: "เลียม นีลสัน" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Robert Downey Jr.", a_th: "โรเบิร์ต ดาวนี่ จูเนียร์" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Matt Daemon", a_th: "แมต เดม่อน" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Tony Jaa", a_th: "จา พนม" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Tom Holland", a_th: "ทอม ฮอลแลนด์" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Anne Hathaway", a_th: "แอน ฮาทาเวย์" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Jack Black", a_th: "แจ็ค แบล็ก" },
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Tom Cruise", a_th: "ทอม ครูซ" },
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Keanu Reeves", a_th: "คีอานู รีฟส์" },
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Leonardo DiCaprio", a_th: "ลีโอนาร์โด ดิแคพริโอ" },
@@ -373,9 +421,14 @@ const decks = {
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Will Smith", a_th: "วิลล์ สมิธ" },
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Brad Pitt", a_th: "แบรด พิตต์" },
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Angelina Jolie", a_th: "แอนเจลินา โจลี" },
+                { q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Scarlett Johansson", a_th: "สกาเล็ต โจแฮนสัน" },
 		{ q: "Who am I? (Actor)", q_th: "ฉันคือใคร? (นักแสดง)", a: "Rowan Atkinson (Mr. Bean)", a_th: "โรวัน แอตกินสัน / มิสเตอร์บีน" },
 		{ q: "Who am I? (Actor/Director)", q_th: "ฉันคือใคร? (นักแสดง/ผู้กำกับ)", a: "Stephen Chow", a_th: "โจว ซิงฉือ" },
 		{ q: "Who am I? (Actor/Director)", q_th: "ฉันคือใคร? (ผู้กำกับ)", a: "Christopher Nolan", a_th: "คริสโตเฟอร์ โนแลน" },
+                { q: "Who am I? (Actor/Director)", q_th: "ฉันคือใคร? (ผู้กำกับ)", a: "James Gunn", a_th: "เจมส์ กัน" },
+                { q: "Who am I? (Actor/Director)", q_th: "ฉันคือใคร? (ผู้กำกับ)", a: "Zack Snyder", a_th: "แซค สไนเดอร์" },
+                { q: "Who am I? (Actor/Director)", q_th: "ฉันคือใคร? (ผู้กำกับ)", a: "George Lucas", a_th: "จอร์จ ลูคัส" },
+                { q: "Who am I? (Actor/Director)", q_th: "ฉันคือใคร? (ผู้กำกับ)", a: "Nawapol Thamrongrattanarit", a_th: "เต๋อ นวพล" },
 		
 		// ATHLETES
 		{ q: "Who am I? (Athlete)", q_th: "ฉันคือใคร? (นักกีฬา)", a: "Lionel Messi", a_th: "ลิโอเนล เมสซี่" },
@@ -389,8 +442,19 @@ const decks = {
 				
 		// POP CULTURE & ENTERTAINMENT
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Michael Jackson", a_th: "ไมเคิล แจ็กสัน" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Doja Cat", a_th: "โดจา แคท" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Lady Gaga", a_th: "เลดี้ กาก้า" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "The Weeknd", a_th: "เดอะ วีคเอน" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Kanye West", a_th: "คานเย่ เวส" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Drake", a_th: "เดรค" },
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Elvis Presley", a_th: "เอลวิส เพรสลีย์" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Freddie Mercury", a_th: "เฟรดดี้ เมอคิวรี่" },
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Taylor Swift", a_th: "เทย์เลอร์ สวิฟต์" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Mum Jokmok", a_th: "หม่ำ จ๊กม๊ก" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Toe SillyFools", a_th: "โต ซิลลี่ฟูล" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Toon Bodyslam", a_th: "ตูน บอดี้แสลม" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Young Ohm", a_th: "ยังโอม" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "RapAke", a_th: "แรป เอก" },
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Beyoncé", a_th: "บียอนเซ่" },
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Justin Bieber", a_th: "จัสติน บีเบอร์" },
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Ed Sheeran", a_th: "เอ็ด ชีรัน" },
@@ -399,6 +463,7 @@ const decks = {
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "PSY", a_th: "ไซ (Gangnam Style)" },
 		{ q: "Who am I? (Pop Culture/Chef)", q_th: "ฉันคือใคร? (เชฟชื่อดัง)", a: "Gordon Ramsay", a_th: "กอร์ดอน แรมซีย์" },
 		{ q: "Who am I? (Pop Culture/Creator)", q_th: "ฉันคือใคร? (ผู้สร้างการ์ตูน)", a: "Walt Disney", a_th: "วอลต์ ดิสนีย์" },
+                { q: "Who am I? (Pop Culture/Creator)", q_th: "ฉันคือใคร? (ผู้สร้างการ์ตูน)", a: "Stan Lee", a_th: "แสตนลีย์" },
 				
 		// SCIENTISTS, INVENTORS & TECH ICONS
 		{ q: "Who am I? (Scientist/Inventor)", q_th: "ฉันคือใคร? (นักวิทยาศาสตร์/นักประดิษฐ์)", a: "Albert Einstein", a_th: "อัลเบิร์ต ไอน์สไตน์" },
@@ -418,6 +483,7 @@ const decks = {
 		{ q: "Who am I? (Historical Figure)", q_th: "ฉันคือใคร? (บุคคลในประวัติศาสตร์)", a: "Genghis Khan", a_th: "เจงกิส ข่าน" },
 		{ q: "Who am I? (Leader)", q_th: "ฉันคือใคร? (ผู้นำ)", a: "Napoleon Bonaparte", a_th: "นโปเลียน โบนาปาร์ต" },
 		{ q: "Who am I? (Leader)", q_th: "ฉันคือใคร? (ผู้นำ)", a: "Abraham Lincoln", a_th: "อับราฮัม ลินคอล์น" },
+                { q: "Who am I? (Leader)", q_th: "ฉันคือใคร? (ผู้นำ)", a: "Donald Trump", a_th: "โดนัล ทรัมป์" },
 		{ q: "Who am I? (Leader)", q_th: "ฉันคือใคร? (ผู้นำ)", a: "Queen Elizabeth II", a_th: "สมเด็จพระราชินีนาถเอลิซาเบธที่ 2" },
 		{ q: "Who am I? (Historical Figure)", q_th: "ฉันคือใคร? (บุคคลในประวัติศาสตร์)", a: "Neil Armstrong", a_th: "นีล อาร์มสตรอง" },
 		{ q: "Who am I? (Historical Figure)", q_th: "ฉันคือใคร? (บุคคลในประวัติศาสตร์)", a: "Christopher Columbus", a_th: "คริสโตเฟอร์ โคลัมบัส" },
