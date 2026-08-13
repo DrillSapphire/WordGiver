@@ -1,6 +1,6 @@
 // decks.js
 
-const decksVersion = "v10";
+const decksVersion = "v10a";
 
 // --- DATABASE ---
 const decks = {
@@ -442,6 +442,7 @@ const decks = {
 				
 		// POP CULTURE & ENTERTAINMENT
 		{ q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Michael Jackson", a_th: "ไมเคิล แจ็กสัน" },
+                { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "อาจารย์แดง กีต้าร์", a_th: "อาจารย์แดง กีต้าร์" },
                 { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Doja Cat", a_th: "โดจา แคท" },
                 { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "Lady Gaga", a_th: "เลดี้ กาก้า" },
                 { q: "Who am I? (Pop Culture)", q_th: "ฉันคือใคร? (ป๊อปคัลเจอร์)", a: "The Weeknd", a_th: "เดอะ วีคเอน" },
