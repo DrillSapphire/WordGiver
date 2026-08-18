@@ -1,6 +1,6 @@
 // decks.js
 
-const decksVersion = "v14"; // added with clues
+const decksVersion = "v15a"; // edited char_extreme
 
 // --- DATABASE ---
 const decks = {
@@ -599,1210 +599,1209 @@ const decks = {
 		{ q: "Who am I? (Artist)", q_th: "ฉันคือใคร? (ศิลปิน/นักเขียน)", a: "Edgar Allan Poe", a_th: "เอดการ์ แอลลัน โพ" }
 		
 	],
-	char_extreme: [
-        // 1
-        {
-            q: "Who am I? (Villain)", q_th: "ฉันคือใคร? (ตัวร้าย)",
-            a: "Darth Vader", a_th: "ดาร์ธ เวเดอร์",
-            clues: [
-                { en: "Breathing", th: "หายใจ" },
-                { en: "Black Armor", th: "เกราะสีดำ" },
-                { en: "Chosen One", th: "ผู้ถูกเลือก" },
-                { en: "Mustafar", th: "มุสตาฟาร์" },
-                { en: "Red Blade", th: "ดาบสีแดง" },
-                { en: "Fatherhood", th: "ผู้เป็นพ่อ" }
-            ]
-        },
-        // 2
-        {
-            q: "Who am I? (Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่)",
-            a: "Lelouch vi Britannia", a_th: "ลูลูช วี บริทาเนีย",
-            clues: [
-                { en: "Chess Master", th: "เซียนหมากรุก" },
-                { en: "Left Eye", th: "ดวงตาซ้าย" },
-                { en: "Black Mask", th: "หน้ากากดำ" },
-                { en: "Area 11", th: "เขต 11" },
-                { en: "Requiem", th: "รีเควียม" },
-                { en: "Zero", th: "ซีโร่" }
-            ]
-        },
-        // 3
-        {
-            q: "Who am I? (TV Drama)", q_th: "ฉันคือใคร? (ซีรีส์ดราม่า)",
-            a: "Walter White", a_th: "วอลเตอร์ ไวท์",
-            clues: [
-                { en: "Teacher", th: "คุณครู" },
-                { en: "Albuquerque", th: "อัลบูเคอร์คี" },
-                { en: "99.1%", th: "99.1%" },
-                { en: "Blue Crystal", th: "ผลึกสีฟ้า" },
-                { en: "RV Lab", th: "รถค่ายกล" },
-                { en: "Heisenberg", th: "ไฮเซนเบิร์ก" }
-            ]
-        },
-        // 4
-        {
-            q: "Who am I? (Villain)", q_th: "ฉันคือใคร? (ตัวร้าย)",
-            a: "Joker", a_th: "โจ๊กเกอร์",
-            clues: [
-                { en: "Magic Trick", th: "มายากล" },
-                { en: "Purple Suit", th: "สูทสีม่วง" },
-                { en: "Acid Vat", th: "บ่อเคมี" },
-                { en: "One Bad Day", th: "วันเลวร้าย" },
-                { en: "Green Hair", th: "ผมสีเขียว" }
-            ]
-        },
-        // 5
-        {
-            q: "Who am I? (Detective)", q_th: "ฉันคือใคร? (นักสืบ)",
-            a: "Sherlock Holmes", a_th: "เชอร์ล็อก โฮล์มส์",
-            clues: [
-                { en: "221B", th: "221บี" },
-                { en: "Violin", th: "ไวโอลิน" },
-                { en: "Nicotine", th: "นิโคติน" },
-                { en: "Moriarty", th: "โมริอาร์ตี" },
-                { en: "Deduction", th: "การอนุมาน" }
-            ]
-        },
-        // 6
-        {
-            q: "Who am I? (Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่)",
-            a: "Severus Snape", a_th: "เซเวอรัส สเนป",
-            clues: [
-                { en: "Half-Blood", th: "เลือดผสม" },
-                { en: "Doe", th: "กวางตัวเมีย" },
-                { en: "Always", th: "ตลอดไป" },
-                { en: "Cauldron", th: "หม้อปรุงยา" },
-                { en: "Occlumency", th: "สกัดใจ" }
-            ]
-        },
-        // 7
-        {
-            q: "Who am I? (Villain)", q_th: "ฉันคือใคร? (ตัวร้าย)",
-            a: "Thanos", a_th: "ธานอส",
-            clues: [
-                { en: "Balance", th: "สมดุล" },
-                { en: "Titan", th: "ไททัน" },
-                { en: "Dust", th: "ผุยผง" },
-                { en: "Snap", th: "ดีดนิ้ว" },
-                { en: "Inevitable", th: "ไม่อาจเลี่ยง" }
-            ]
-        },
-        // 8
-        {
-            q: "Who am I? (Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่)",
-            a: "Light Yagami", a_th: "ยาการิ ไลท์",
-            clues: [
-                { en: "Potato Chip", th: "มันฝรั่งทอด" },
-                { en: "Apples", th: "แอปเปิล" },
-                { en: "Kira", th: "คิระ" },
-                { en: "Heart Attack", th: "หัวใจวาย" },
-                { en: "Justice", th: "ความยุติธรรม" }
-            ]
-        },
-        // 9
-        {
-            q: "Who am I? (Fantasy Hero)", q_th: "ฉันคือใคร? (ฮีโร่แฟนตาซี)",
-            a: "Geralt of Rivia", a_th: "เกรอลท์ แห่ง ริเวีย",
-            clues: [
-                { en: "White Hair", th: "ผมสีขาว" },
-                { en: "Silver Sword", th: "ดาบเงิน" },
-                { en: "Gwent", th: "เกวนต์" },
-                { en: "Kaer Morhen", th: "แอร์ มอร์เฮน" },
-                { en: "Butcher", th: "คนเชือด" }
-            ]
-        },
-        // 10
-        {
-            q: "Who am I? (Psychopath)", q_th: "ฉันคือใคร? (ฆาตกรโรคจิต)",
-            a: "Hannibal Lecter", a_th: "ฮันนิบาล เล็กเตอร์",
-            clues: [
-                { en: "Chianti", th: "ไวน์เคียนติ" },
-                { en: "Fava Beans", th: "ถั่วฟาวา" },
-                { en: "Muzzle", th: "ตะกร้อครอบปาก" },
-                { en: "Clarice", th: "แคลริซ" },
-                { en: "Gourmet", th: "นักชิม" }
-            ]
-        },
-        // 11
-        {
-            q: "Who am I? (Psychopath)", q_th: "ฉันคือใคร? (ฆาตกรโรคจิต)",
-            a: "Patrick Bateman", a_th: "แพทริก เบตแมน",
-            clues: [
-                { en: "Business Card", th: "นามบัตร" },
-                { en: "Raincoat", th: "เสื้อกันฝน" },
-                { en: "Chainsaw", th: "เลื่อยยนต์" },
-                { en: "Dorsia", th: "ร้านดอร์เซีย" },
-                { en: "Wall Street", th: "วอลล์สตรีท" }
-            ]
-        },
-        // 12
-        {
-            q: "Who am I? (Monster)", q_th: "ฉันคือใคร? (สัตว์ประหลาด)",
-            a: "Godzilla", a_th: "ก็อตซิลลา",
-            clues: [
-                { en: "1954", th: "ปี 1954" },
-                { en: "Atomic Ray", th: "ลำแสงอะตอม" },
-                { en: "Odo Island", th: "เกาะโอโดะ" },
-                { en: "Roar", th: "เสียงคำราม" },
-                { en: "King", th: "ราชา" }
-            ]
-        },
-        // 13
-        {
-            q: "Who am I? (Assassin)", q_th: "ฉันคือใคร? (นักฆ่า)",
-            a: "John Wick", a_th: "จอห์น วิค",
-            clues: [
-                { en: "Gold Coin", th: "เหรียญทอง" },
-                { en: "Mustang", th: "รถมัสแตง" },
-                { en: "Beagle", th: "หมาบีเกิล" },
-                { en: "Baba Yaga", th: "บาบายากา" },
-                { en: "Pencil", th: "ดินสอ" }
-            ]
-        },
-        // 14
-        {
-            q: "Who am I? (Dark Lord)", q_th: "ฉันคือใคร? (จอมมาร)",
-            a: "Sauron", a_th: "เซารอน",
-            clues: [
-                { en: "Flaming Eye", th: "ดวงตาอัคคี" },
-                { en: "Barad-dûr", th: "บารัดดูร์" },
-                { en: "Mount Doom", th: "ภูเขามรณะ" },
-                { en: "Nine Rings", th: "แหวนเก้าวง" },
-                { en: "One Ring", th: "แหวนครองภพ" }
-            ]
-        },
-        // 15
-        {
-            q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)",
-            a: "Tony Stark", a_th: "โทนี่ สตาร์ค",
-            clues: [
-                { en: "Cave", th: "ถ้ำ" },
-                { en: "Arc Reactor", th: "เตาปฏิกรณ์" },
-                { en: "Cheeseburger", th: "ชีสเบอร์เกอร์" },
-                { en: "JARVIS", th: "จาร์วิส" },
-                { en: "3000", th: "3000" }
-            ]
-        },
-        // 16
-        {
-            q: "Who am I? (TV Comedy)", q_th: "ฉันคือใคร? (ซีรีส์ตลก)",
-            a: "Michael Scott", a_th: "ไมเคิล สกอตต์",
-            clues: [
-                { en: "Scranton", th: "สแครนตัน" },
-                { en: "Paper", th: "กระดาษ" },
-                { en: "Best Boss", th: "เจ้านายยอดเยี่ยม" },
-                { en: "She Said", th: "มุกเธอกล่าวไว้" },
-                { en: "Dundies", th: "รางวัลดันดี้" }
-            ]
-        },
-        // 17
-        {
-            q: "Who am I? (Anti-villain)", q_th: "ฉันคือใคร? (ตัวร้าย)",
-            a: "Homelander", a_th: "โฮมแลนเดอร์",
-            clues: [
-                { en: "Flag Cape", th: "ผ้าคลุมลายธง" },
-                { en: "Milk", th: "นม" },
-                { en: "Vought", th: "วอท" },
-                { en: "Compound V", th: "สารคอมพาวด์วี" },
-                { en: "Laser Eyes", th: "เลเซอร์สายตา" }
-            ]
-        },
-        // 18
-        {
-            q: "Who am I? (Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่)",
-            a: "Tyler Durden", a_th: "ไทเลอร์ เดอร์เดน",
-            clues: [
-                { en: "Pink Soap", th: "สบู่สีชมพู" },
-                { en: "First Rule", th: "กฎข้อแรก" },
-                { en: "Mayhem", th: "เมย์แฮม" },
-                { en: "Project", th: "โปรเจกต์" },
-                { en: "Alter Ego", th: "อีกตัวตน" }
-            ]
-        },
-        // 19
-        {
-            q: "Who am I? (Fantasy Creature)", q_th: "ฉันคือใคร? (สิ่งมีชีวิตแฟนตาซี)",
-            a: "Gollum", a_th: "กอลลัม",
-            clues: [
-                { en: "Sméagol", th: "สมีโกล" },
-                { en: "Raw Fish", th: "ปลาดิบ" },
-                { en: "Riddles", th: "ปริศนาคำทาย" },
-                { en: "Precious", th: "ของรัก" },
-                { en: "Caves", th: "ถ้ำมืด" }
-            ]
-        },
-        // 20
-        {
-            q: "Who am I? (Sci-fi Hero)", q_th: "ฉันคือใคร? (ฮีโร่ไซ-ไฟ)",
-            a: "Neo", a_th: "นีโอ",
-            clues: [
-                { en: "Red Pill", th: "ยาสีแดง" },
-                { en: "Green Code", th: "โค้ดสีเขียว" },
-                { en: "Thomas", th: "โทมัส" },
-                { en: "Bullet Time", th: "หลบกระสุน" },
-                { en: "The One", th: "ผู้กอบกู้" }
-            ]
-        },
-        // 21
-        {
-            q: "Who am I? (Sci-fi Hero)", q_th: "ฉันคือใคร? (ฮีโร่ไซ-ไฟ)",
-            a: "Ellen Ripley", a_th: "เอลเลน ริปลีย์",
-            clues: [
-                { en: "Nostromo", th: "ยานนอสโตรโม" },
-                { en: "Jonesy", th: "แมวจอนซี่" },
-                { en: "Power Loader", th: "หุ่นยกของ" },
-                { en: "Acid Blood", th: "เลือดกรด" },
-                { en: "Xenomorph", th: "ซีโนมอร์ฟ" }
-            ]
-        },
-        // 22
-        {
-            q: "Who am I? (Adventurer)", q_th: "ฉันคือใคร? (นักผจญภัย)",
-            a: "Indiana Jones", a_th: "อินเดียนา โจนส์",
-            clues: [
-                { en: "Whip", th: "แส้" },
-                { en: "Fedora", th: "หมวกเฟโดรา" },
-                { en: "Snakes", th: "งู" },
-                { en: "Boulder", th: "หินยักษ์" },
-                { en: "Archeology", th: "โบราณคดี" }
-            ]
-        },
-        // 23
-        {
-            q: "Who am I? (Pirate)", q_th: "ฉันคือใคร? (โจรสลัด)",
-            a: "Captain Jack Sparrow", a_th: "กัปตันแจ็ค สแปร์โรว์",
-            clues: [
-                { en: "Rum", th: "เหล้ารัม" },
-                { en: "Broken Compass", th: "เข็มทิศพัง" },
-                { en: "Black Pearl", th: "เรือแบล็กเพิร์ล" },
-                { en: "Jar of Dirt", th: "ไหใส่ดิน" },
-                { en: "Captain", th: "คำว่ากัปตัน" }
-            ]
-        },
-        // 24
-        {
-            q: "Who am I? (Dark Wizard)", q_th: "ฉันคือใคร? (พ่อมดศาสตร์มืด)",
-            a: "Lord Voldemort", a_th: "ลอร์ด โวลเดอมอร์",
-            clues: [
-                { en: "Tom Riddle", th: "ทอม ริดเดิล" },
-                { en: "Horcrux", th: "ฮอร์ครักซ์" },
-                { en: "Green Light", th: "แสงสีเขียว" },
-                { en: "Nagini", th: "นากินี" },
-                { en: "No Nose", th: "ไร้จมูก" }
-            ]
-        },
-        // 25
-        {
-            q: "Who am I? (Gaming Legend)", q_th: "ฉันคือใคร? (ตำนานเกม)",
-            a: "Kratos", a_th: "เครโทส",
-            clues: [
-                { en: "Ashes", th: "เถ้าถ่าน" },
-                { en: "Chains", th: "โซ่พันแขน" },
-                { en: "Red Tattoo", th: "รอยสักสีแดง" },
-                { en: "Boy", th: "ไอ้หนู" },
-                { en: "Axe", th: "ขวาน" }
-            ]
-        },
-        // 26
-        {
-            q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
-            a: "Link", a_th: "ลิงก์",
-            clues: [
-                { en: "Green Tunic", th: "ชุดเขียว" },
-                { en: "Hyrule", th: "ไฮรูล" },
-                { en: "Triforce", th: "ไตรฟอร์ซ" },
-                { en: "Master Sword", th: "ดาบมาสเตอร์" },
-                { en: "Mute", th: "ไม่พูด" }
-            ]
-        },
-        // 27
-        {
-            q: "Who am I? (Gaming Icon)", q_th: "ฉันคือใคร? (ไอคอนเกม)",
-            a: "Mario", a_th: "มาริโอ้",
-            clues: [
-                { en: "Red Cap", th: "หมวกสีแดง" },
-                { en: "Plumber", th: "ช่างประปา" },
-                { en: "Mushroom", th: "เห็ด" },
-                { en: "Green Pipe", th: "ท่อสีเขียว" },
-                { en: "Bowser", th: "โบว์เซอร์" }
-            ]
-        },
-        {
-            q: "Who am I? (Gaming Sci-fi)", q_th: "ฉันคือใคร? (ฮีโร่ไซ-ไฟเกม)",
-            a: "Master Chief", a_th: "มาสเตอร์ชีฟ",
-            clues: [
-				{ en: "Heavy Armor", th: "เกราะหนัก" },
-				{ en: "John-117", th: "จอห์น-117" },
-                { en: "Gold Visor", th: "หน้ากากทอง" },
-                { en: "Cortana", th: "คอร์ทานา" },
-                { en: "Ringworld", th: "โลกวงแหวน" },
-                { en: "Spartan", th: "สปาร์ตัน" }
-            ]
-        },
-        {
-            q: "Who am I? (Outlaw)", q_th: "ฉันคือใคร? (สิงห์ปืนไว)",
-            a: "Arthur Morgan", a_th: "อาร์เธอร์ มอร์แกน",
-            clues: [
-                { en: "Van der Linde", th: "แก๊งฟานเดอร์ลินเดอ" },
-                { en: "Journal", th: "สมุดบันทึก" },
-                { en: "Tuberculosis", th: "วัณโรค" },
-                { en: "Redemption", th: "ไถ่บาป" },
-                { en: "Deer", th: "กวาง" }
-            ]
-        },
-        // 30
-        {
-            q: "Who am I? (Gaming Spy)", q_th: "ฉันคือใคร? (สายลับเกม)",
-            a: "Solid Snake", a_th: "โซลิด สเนก",
-            clues: [
-                { en: "Cardboard Box", th: "กล่องกระดาษ" },
-                { en: "Bandana", th: "ผ้าโพกหัว" },
-                { en: "Foxhound", th: "ฟ็อกซ์ฮาวด์" },
-                { en: "Exclamation", th: "เครื่องหมายตกใจ" },
-                { en: "Metal Gear", th: "เมทัลเกียร์" }
-            ]
-        },
-        // 31
-        {
-            q: "Who am I? (Gaming RPG)", q_th: "ฉันคือใคร? (ตัวละคร RPG)",
-            a: "Cloud Strife", a_th: "คลาวด์ สไตรฟ์",
-            clues: [
-                { en: "Buster Sword", th: "ดาบยักษ์" },
-                { en: "SOLDIER", th: "ซัลเจอร์" },
-                { en: "Mako", th: "พลังงานมาโกะ" },
-                { en: "Midgar", th: "มิดการ์" },
-                { en: "One Wing", th: "ปีกเดียว" }
-            ]
-        },
-        // 32
-        {
-            q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
-            a: "Saitama", a_th: "ไซตามะ",
-            clues: [
-                { en: "Bald", th: "หัวโล้น" },
-                { en: "Yellow Suit", th: "ชุดสีเหลือง" },
-                { en: "Sale Day", th: "วันลดราคา" },
-                { en: "One Punch", th: "หมัดเดียว" },
-                { en: "Cyborg Disciple", th: "ศิษย์ไซบอร์ก" }
-            ]
-        },
-        // 33
-        {
-            q: "Who am I? (Anime Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่อนิเมะ)",
-            a: "Eren Yeager", a_th: "เอเรน เยเกอร์",
-            clues: [
-                { en: "Basement Key", th: "กุญแจห้องใต้ดิน" },
-                { en: "Rumbling", th: "การพิทักษ์พิภพ" },
-                { en: "Freedom", th: "อิสรภาพ" },
-                { en: "Attack Titan", th: "ไททันจู่โจม" },
-                { en: "Sea", th: "ทะเล" }
-            ]
-        },
-        // 34
-        {
-            q: "Who am I? (Ninja)", q_th: "ฉันคือใคร? (นินจา)",
-            a: "Naruto Uzumaki", a_th: "นารูโตะ อุซึมากิ",
-            clues: [
-                { en: "Ramen", th: "ราเมง" },
-                { en: "Nine-Tails", th: "เก้าหาง" },
-                { en: "Shadow Clone", th: "คาถาแยกร่าง" },
-                { en: "Spiral Sphere", th: "กระสุนวงจักร" },
-                { en: "Hokage", th: "โฮคาเงะ" }
-            ]
-        },
-        // 35
-        {
-            q: "Who am I? (Sorcerer)", q_th: "ฉันคือใคร? (ผู้ใช้ไสยเวท)",
-            a: "Satoru Gojo", a_th: "โกะโจ ซาโตรุ",
-            clues: [
-                { en: "Blindfold", th: "ผ้าปิดตา" },
-                { en: "Six Eyes", th: "หกเนตร" },
-                { en: "Limitless", th: "ไร้ขีดจำกัด" },
-                { en: "Domain", th: "อาณาเขต" },
-                { en: "Strongest", th: "แกร่งที่สุด" }
-            ]
-        },
-        // 36
-        {
-            q: "Who am I? (Alchemist)", q_th: "ฉันคือใคร? (นักเล่นแร่แปรธาตุ)",
-            a: "Edward Elric", a_th: "เอ็ดเวิร์ด เอลริก",
-            clues: [
-                { en: "Automail", th: "แขนขาจักรกล" },
-                { en: "Short", th: "ตัวเตี้ย" },
-                { en: "Human Transmutation", th: "แปรธาตุมนุษย์" },
-                { en: "Red Stone", th: "ศิลาสีแดง" },
-                { en: "Fullmetal", th: "เหล็กไหล" }
-            ]
-        },
-        // 37
-        {
-            q: "Who am I? (Dark Fantasy)", q_th: "ฉันคือใคร? (ดาร์กแฟนตาซี)",
-            a: "Guts", a_th: "กัทส์",
-            clues: [
-                { en: "Dragon Slayer", th: "ดาบฆ่ามังกร" },
-                { en: "Brand", th: "ตราประทับ" },
-                { en: "One Eye", th: "ตาข้างเดียว" },
-                { en: "Eclipse", th: "สุริยุปราคา" },
-                { en: "Black Swordsman", th: "นักดาบดำ" }
-            ]
-        },
-        // 38
-        {
-            q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)",
-            a: "Spider-Man", a_th: "สไปเดอร์แมน",
-            clues: [
-                { en: "Responsibility", th: "ความรับผิดชอบ" },
-                { en: "Queens", th: "ควีนส์" },
-                { en: "Daily Bugle", th: "เดลี บิวเกิล" },
-                { en: "Spider-Sense", th: "สัมผัสพิเศษ" },
-                { en: "Web Shooter", th: "เครื่องยิงใย" }
-            ]
-        },
-        // 39
-        {
-            q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)",
-            a: "Batman", a_th: "แบทแมน",
-            clues: [
-                { en: "Alleyway", th: "ตรอกซอย" },
-                { en: "Cave", th: "ถ้ำ" },
-                { en: "Orphan", th: "เด็กกำพร้า" },
-                { en: "Gotham", th: "ก็อตแธม" },
-                { en: "Batarang", th: "แบทเทอแรง" }
-            ]
-        },
-        // 40
-        {
-            q: "Who am I? (Mutant)", q_th: "ฉันคือใคร? (มนุษย์กลายพันธุ์)",
-            a: "Wolverine", a_th: "วูล์ฟเวอรีน",
-            clues: [
-                { en: "Adamantium", th: "แร่กรงเล็บ" },
-                { en: "Healing Factor", th: "พลังฟื้นฟู" },
-                { en: "Cigar", th: "ซิก้าร์" },
-                { en: "Weapon X", th: "เวพอน X" },
-                { en: "Claws", th: "กรงเล็บ" }
-            ]
-        },
-        // 41
-        {
-            q: "Who am I? (Sci-fi Hero)", q_th: "ฉันคือใคร? (ฮีโร่ไซ-ไฟ)",
-            a: "Paul Atreides", a_th: "พอล แอเทรดีส",
-            clues: [
-                { en: "Spice", th: "สไปซ์" },
-                { en: "Arrakis", th: "อาร์ราคิส" },
-                { en: "Sandworm", th: "หนอนทราย" },
-                { en: "Muad'Dib", th: "มูอัดดิบ" },
-                { en: "Blue Eyes", th: "ตาสีฟ้า" }
-            ]
-        },
-        // 42
-        {
-            q: "Who am I? (TV Lawyer)", q_th: "ฉันคือใคร? (ทนายความ)",
-            a: "Saul Goodman", a_th: "ซอล กู๊ดแมน",
-            clues: [
-                { en: "Slippin' Jimmy", th: "จิมมี่จอมสับปลับ" },
-                { en: "Billboard", th: "ป้ายโฆษณา" },
-                { en: "Better Call", th: "สายตรงหา" },
-                { en: "Cell Phones", th: "มือถือเติมเงิน" },
-                { en: "Cinnabon", th: "ซินนาบอน" }
-            ]
-        },
-        // 43
-        {
-            q: "Who am I? (Serial Killer)", q_th: "ฉันคือใคร? (ฆาตกรต่อเนื่อง)",
-            a: "Dexter Morgan", a_th: "เดกซ์เตอร์ มอร์แกน",
-            clues: [
-                { en: "Blood Spatter", th: "รอยเลือด" },
-                { en: "Miami", th: "ไมอามี" },
-                { en: "Dark Passenger", th: "ผู้โดยสารสายมืด" },
-                { en: "Plastic Wrap", th: "พลาสติกถนอมอาหาร" },
-                { en: "Code of Harry", th: "กฎของแฮร์รี่" }
-            ]
-        },
-        // 44
-        {
-            q: "Who am I? (Gangster)", q_th: "ฉันคือใคร? (เจ้าพ่ออันธพาล)",
-            a: "Tommy Shelby", a_th: "ทอมมี่ เชลบี้",
-            clues: [
-                { en: "Flat Cap", th: "หมวกแก๊ป" },
-                { en: "Razor Blade", th: "ใบมีดโกน" },
-                { en: "Birmingham", th: "เบอร์มิงแฮม" },
-                { en: "Red Right Hand", th: "มือขวาสีแดง" },
-                { en: "Cigarette", th: "บุหรี่" }
-            ]
-        },
-        // 45
-        {
-            q: "Who am I? (Gothic Character)", q_th: "ฉันคือใคร? (ตัวละครกอธิค)",
-            a: "Wednesday Addams", a_th: "เวนส์เดย์ แอดดัมส์",
-            clues: [
-                { en: "Braids", th: "ผมเปีย" },
-                { en: "Thing", th: "มือปริศนา" },
-                { en: "Nevermore", th: "เนเวอร์มอร์" },
-                { en: "Cello", th: "เชลโล" },
-                { en: "Black Dress", th: "ชุดเดรสสีดำ" }
-            ]
-        },
-        // 46
-        {
-            q: "Who am I? (Mad Scientist)", q_th: "ฉันคือใคร? (นักวิทยาศาสตร์สติเฟื่อง)",
-            a: "Rick Sanchez", a_th: "ริก แซนเชซ",
-            clues: [
-                { en: "Portal Gun", th: "ปืนพอร์ทัล" },
-                { en: "Green Fluid", th: "น้ำยาเขียว" },
-                { en: "Pickle", th: "แตงกวาดอง" },
-                { en: "Multiverse", th: "พหุภพ" },
-                { en: "Lab Coat", th: "เสื้อกาวน์" }
-            ]
-        },
-        // 47
-        {
-            q: "Who am I? (Animated TV)", q_th: "ฉันคือใคร? (อนิเมชันทีวี)",
-            a: "BoJack Horseman", a_th: "โบแจ็ก ฮอร์สแมน",
-            clues: [
-                { en: "Hollywoo", th: "ฮอลลีวู" },
-                { en: "90s Sitcom", th: "ซิตคอมยุค 90" },
-                { en: "Depression", th: "ภาวะซึมเศร้า" },
-                { en: "Horse", th: "ม้า" },
-                { en: "Horsin' Around", th: "ฮอร์ซินอะราวด์" }
-            ]
-        },
-        // 48
-        {
-            q: "Who am I? (Sci-fi Kid)", q_th: "ฉันคือใคร? (เด็กไซ-ไฟ)",
-            a: "Eleven", a_th: "อีเลฟเวน",
-            clues: [
-                { en: "Eggo", th: "ขนมรังผึ้ง" },
-                { en: "Nosebleed", th: "เลือดกำเดา" },
-                { en: "Telekinesis", th: "พลังจิต" },
-                { en: "Hawkins", th: "ฮอว์กินส์" },
-                { en: "Upside Down", th: "โลกขนาน" }
-            ]
-        },
-        // 49
-        {
-            q: "Who am I? (Gaming / Animation)", q_th: "ฉันคือใคร? (ตัวละครเกม / แอนิเมชัน)",
-            a: "Jinx", a_th: "จิงซ์",
-            clues: [
-                { en: "Blue Braids", th: "ผมเปียสีฟ้า" },
-                { en: "Zaun", th: "ซอน" },
-                { en: "Fishbones", th: "ปืนใหญ่จรวด" },
-                { en: "Arcane", th: "อาร์เคน" },
-                { en: "Graffiti", th: "รอยพ่นสี" }
-            ]
-        },
-        // 50
-        {
-            q: "Who am I? (Sci-fi Villain)", q_th: "ฉันคือใคร? (ตัวร้ายไซ-ไฟ)",
-            a: "Agent Smith", a_th: "เอเจนต์ สมิธ",
-            clues: [
-                { en: "Earpiece", th: "หูฟังไร้สาย" },
-                { en: "Sunglasses", th: "แว่นกันแดด" },
-                { en: "Mr. Anderson", th: "มิสเตอร์แอนเดอร์สัน" },
-                { en: "Virus", th: "ไวรัส" },
-                { en: "Clones", th: "ร่างก๊อปปี้" }
-            ]
-        },
-		// 51
-        {
-            q: "Who am I? (Gaming Villain)", q_th: "ฉันคือใคร? (ตัวร้ายเกม)",
-            a: "Sephiroth", a_th: "เซฟิรอธ",
-            clues: [
-                { en: "Masamune", th: "มาซามูเนะ" },
-                { en: "One Wing", th: "ปีกเดียว" },
-                { en: "Meteor", th: "เมทีออร์" },
-                { en: "Nibelheim", th: "นีเบลไฮม์" },
-                { en: "Jenova", th: "เจโนวา" }
-            ]
-        },
-        // 52
-        {
-            q: "Who am I? (Gaming AI)", q_th: "ฉันคือใคร? (เอไอเกม)",
-            a: "GLaDOS", a_th: "กลาดอส",
-            clues: [
-                { en: "Cake", th: "เค้ก" },
-                { en: "Neurotoxin", th: "ก๊าซพิษ" },
-                { en: "Aperture", th: "อะเพอร์เจอร์" },
-                { en: "Potato", th: "มันฝรั่ง" },
-                { en: "Testing", th: "การทดสอบ" }
-            ]
-        },
-        // 53
-        {
-            q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
-            a: "Leon S. Kennedy", a_th: "ลีออน เอส เคนเนดี",
-            clues: [
-                { en: "RPD", th: "อาร์พีดี" },
-                { en: "Herbs", th: "สมุนไพร" },
-                { en: "Suplex", th: "ซูเพล็กซ์" },
-                { en: "Ada", th: "เอด้า" },
-                { en: "Bingo", th: "บิงโก" }
-            ]
-        },
-        // 54
-        {
-            q: "Who am I? (Gaming Android)", q_th: "ฉันคือใคร? (แอนดรอยด์เกม)",
-            a: "2B", a_th: "ทูบี (2B)",
-            clues: [
-                { en: "Blindfold", th: "ผ้าปิดตา" },
-                { en: "YoRHa", th: "ยอร์ฮา" },
-                { en: "Pod", th: "พ็อด" },
-                { en: "Machines", th: "จักรกล" },
-                { en: "Glory", th: "เกียรติภูมิ" }
-            ]
-        },
-        // 55
-        {
-            q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
-            a: "Doom Slayer", a_th: "ดูมสเลเยอร์",
-            clues: [
-                { en: "Shotgun", th: "ลูกซอง" },
-                { en: "Demons", th: "ปีศาจ" },
-                { en: "Mars", th: "ดาวอังคาร" },
-                { en: "BFG", th: "บีเอฟจี" },
-                { en: "Rip Tear", th: "ฉีกกระชาก" }
-            ]
-        },
-        // 56
-        {
-            q: "Who am I? (Gaming Sci-fi)", q_th: "ฉันคือใคร? (ตัวละครไซ-ไฟเกม)",
-            a: "Gordon Freeman", a_th: "กอร์ดอน ฟรีแมน",
-            clues: [
-                { en: "Crowbar", th: "ชะแลง" },
-                { en: "Gravity Gun", th: "ปืนแรงโน้มถ่วง" },
-                { en: "HEV Suit", th: "ชุดป้องกัน" },
-                { en: "Black Mesa", th: "แบล็กเมซา" },
-                { en: "Mute", th: "ไม่พูด" }
-            ]
-        },
-        // 57
-        {
-            q: "Who am I? (Gaming Adventurer)", q_th: "ฉันคือใคร? (นักผจญภัยเกม)",
-            a: "Lara Croft", a_th: "ลาร่า ครอฟต์",
-            clues: [
-                { en: "Dual Pistols", th: "ปืนคู่" },
-                { en: "Tomb", th: "สุสานโบราณ" },
-                { en: "Croft Manor", th: "คฤหาสน์ครอฟต์" },
-                { en: "Relics", th: "วัตถุโบราณ" },
-                { en: "Survivor", th: "ผู้รอดชีวิต" }
-            ]
-        },
-        // 58
-        {
-            q: "Who am I? (Gaming Fighter)", q_th: "ฉันคือใคร? (นักสู้เกม)",
-            a: "Sub-Zero", a_th: "ซับซีโร่",
-            clues: [
-                { en: "Ice", th: "น้ำแข็ง" },
-                { en: "Lin Kuei", th: "หลินกุ้ย" },
-                { en: "Spine", th: "กระดูกสันหลัง" },
-                { en: "Freeze", th: "แช่แข็ง" },
-                { en: "Blue Ninja", th: "นินจาสีฟ้า" }
-            ]
-        },
-        // 59
-        {
-            q: "Who am I? (Gaming Fighter)", q_th: "ฉันคือใคร? (นักสู้เกม)",
-            a: "Scorpion", a_th: "สกอร์เปียน",
-            clues: [
-                { en: "Spear", th: "ฉมวก" },
-                { en: "Hellfire", th: "ไฟนรก" },
-                { en: "Shirai Ryu", th: "ชิไรริว" },
-                { en: "Vengeance", th: "ล้างแค้น" },
-                { en: "Get Here", th: "มานี่" }
-            ]
-        },
-        // 60
-        {
-            q: "Who am I? (Gaming Survivor)", q_th: "ฉันคือใคร? (ผู้รอดชีวิตเกม)",
-            a: "Ellie", a_th: "เอลลี่",
-            clues: [
-                { en: "Switchblade", th: "มีดพับ" },
-                { en: "Bite Mark", th: "รอยกัด" },
-                { en: "Guitar", th: "กีตาร์" },
-                { en: "Immune", th: "ภูมิคุ้มกัน" },
-                { en: "Fireflies", th: "หิ่งห้อย" }
-            ]
-        },
-        // 61
-        {
-            q: "Who am I? (Anime)", q_th: "ฉันคือใคร? (อนิเมะ)",
-            a: "Levi Ackerman", a_th: "รีไวล์ แอคเคอร์แมน",
-            clues: [
-                { en: "Cleaning", th: "ทำความสะอาด" },
-                { en: "Cravat", th: "ผ้าผูกคอ" },
-                { en: "Spin", th: "หมุนตัว" },
-                { en: "Tea", th: "น้ำชา" },
-                { en: "Strongest", th: "แกร่งที่สุด" }
-            ]
-        },
-        // 62
-        {
-            q: "Who am I? (Anime)", q_th: "ฉันคือใคร? (อนิเมะ)",
-            a: "Kakashi Hatake", a_th: "ฮาตาเกะ คาคาชิ",
-            clues: [
-                { en: "Book", th: "หนังสืออ่านเล่น" },
-                { en: "Sharingan", th: "เนตรวงแหวน" },
-                { en: "Mask", th: "หน้ากาก" },
-                { en: "Lightning", th: "สายฟ้า" },
-                { en: "Copy", th: "ก๊อปปี้" }
-            ]
-        },
-        // 63
-        {
-            q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
-            a: "Roronoa Zoro", a_th: "โรโรโนอา โซโล",
-            clues: [
-                { en: "Three Swords", th: "ดาบสามเล่ม" },
-                { en: "Bandana", th: "ผ้าโพกหัว" },
-                { en: "Directionless", th: "หลงทาง" },
-                { en: "Marimo", th: "มาริโมะ" },
-                { en: "Sake", th: "สาเก" }
-            ]
-        },
-        // 64
-        {
-            q: "Who am I? (Anime Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่อนิเมะ)",
-            a: "Itachi Uchiha", a_th: "อุจิวะ อิทาจิ",
-            clues: [
-                { en: "Crows", th: "อีกา" },
-                { en: "Dango", th: "ดังโงะ" },
-                { en: "Massacre", th: "สังหารหมู่" },
-                { en: "Illusion", th: "คาถาลวงตา" },
-                { en: "Brother", th: "น้องชาย" }
-            ]
-        },
-        // 65
-        {
-            q: "Who am I? (Anime Detective)", q_th: "ฉันคือใคร? (นักสืบอนิเมะ)",
-            a: "L", a_th: "แอล (L)",
-            clues: [
-                { en: "Sweets", th: "ของหวาน" },
-                { en: "Barefoot", th: "เท้าเปล่า" },
-                { en: "Crouch", th: "นั่งยอง" },
-                { en: "Kira", th: "คิระ" },
-                { en: "Alias", th: "นามแฝง" }
-            ]
-        },
-        // 66
-        {
-            q: "Who am I? (Anime Villain)", q_th: "ฉันคือใคร? (ตัวร้ายอนิเมะ)",
-            a: "Makima", a_th: "มาคิมะ",
-            clues: [
-                { en: "Chains", th: "โซ่" },
-                { en: "Dogs", th: "สุนัข" },
-                { en: "Control", th: "ควบคุม" },
-                { en: "Bang", th: "ปัง" },
-                { en: "Public Safety", th: "นักล่าทางการ" }
-            ]
-        },
-        // 67
-        {
-            q: "Who am I? (Anime Villain)", q_th: "ฉันคือใคร? (ตัวร้ายอนิเมะ)",
-            a: "Hisoka", a_th: "ฮิโซกะ",
-            clues: [
-                { en: "Bungee Gum", th: "บันจี้กัม" },
-                { en: "Cards", th: "ไพ่" },
-                { en: "Face Paint", th: "เพนต์หน้า" },
-                { en: "Spiders", th: "แมงมุม" },
-                { en: "Magician", th: "นักมายากล" }
-            ]
-        },
-        // 68
-        {
-            q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
-            a: "Roy Mustang", a_th: "รอย มัสแตง",
-            clues: [
-                { en: "Gloves", th: "ถุงมือ" },
-                { en: "Snap", th: "ดีดนิ้ว" },
-                { en: "Flames", th: "เปลวไฟ" },
-                { en: "Miniskirts", th: "กระโปรงสั้น" },
-                { en: "Colonel", th: "พันเอก" }
-            ]
-        },
-        // 69
-        {
-            q: "Who am I? (Anime Villain)", q_th: "ฉันคือใคร? (ตัวร้ายอนิเมะ)",
-            a: "Frieza", a_th: "ฟรีเซอร์",
-            clues: [
-                { en: "Forms", th: "ร่างแปลง" },
-                { en: "Emperor", th: "จักรพรรดิ" },
-                { en: "Planet Trade", th: "ค้าดวงดาว" },
-                { en: "Tail", th: "หาง" },
-                { en: "Monkeys", th: "พวกลิง" }
-            ]
-        },
-        // 70
-        {
-            q: "Who am I? (Anime Bounty Hunter)", q_th: "ฉันคือใคร? (นักล่าค่าหัวอนิเมะ)",
-            a: "Spike Spiegel", a_th: "สไปค์ สปีเกล",
-            clues: [
-                { en: "Bebop", th: "บีบ็อป" },
-                { en: "Cigarette", th: "บุหรี่" },
-                { en: "Jeet Kune Do", th: "จีทคุนโด้" },
-                { en: "Space", th: "อวกาศ" },
-                { en: "Syndicate", th: "ซินดิเคต" }
-            ]
-        },
-        // 71
-        {
-            q: "Who am I? (Sci-fi Hero)", q_th: "ฉันคือใคร? (ฮีโร่ไซ-ไฟ)",
-            a: "Luke Skywalker", a_th: "ลุค สกายวอล์คเกอร์",
-            clues: [
-                { en: "Tatooine", th: "ทาทูอีน" },
-                { en: "Green Blade", th: "ดาบสีเขียว" },
-                { en: "Prosthetic Hand", th: "มือเทียม" },
-                { en: "X-Wing", th: "ยานเอ็กซ์วิง" },
-                { en: "Twin", th: "ฝาแฝด" }
-            ]
-        },
-        // 72
-        {
-            q: "Who am I? (Sci-fi Master)", q_th: "ฉันคือใคร? (ปรมาจารย์ไซ-ไฟ)",
-            a: "Yoda", a_th: "โยดา",
-            clues: [
-                { en: "Swamp", th: "หนองน้ำ" },
-                { en: "Cane", th: "ไม้เท้า" },
-                { en: "Syntax", th: "ไวยากรณ์" },
-                { en: "Grandmaster", th: "ปรมาจารย์" },
-                { en: "Dagobah", th: "ดาโกบาห์" }
-            ]
-        },
-        // 73
-        {
-            q: "Who am I? (Sci-fi Bounty Hunter)", q_th: "ฉันคือใคร? (นักล่าค่าหัวไซ-ไฟ)",
-            a: "Boba Fett", a_th: "โบบา เฟตต์",
-            clues: [
-                { en: "Mandalorian", th: "แมนดาลอเรียน" },
-                { en: "Jetpack", th: "เจ็ตแพ็ก" },
-                { en: "Sarlacc", th: "ซาร์ลัก" },
-                { en: "Bounty", th: "ค่าหัว" },
-                { en: "Clone", th: "ร่างโคลน" }
-            ]
-        },
-        // 74
-        {
-            q: "Who am I? (Sci-fi Hero)", q_th: "ฉันคือใคร? (ฮีโร่ไซไฟ)",
-            a: "Terminator (T-800)", a_th: "คนเหล็ก (T-800)",
-            clues: [
-                { en: "Sunglasses", th: "แว่นดำ" },
-                { en: "Leather Jacket", th: "แจ็กเก็ตหนัง" },
-                { en: "Shotgun", th: "ลูกซอง" },
-                { en: "Skynet", th: "สกายเน็ต" },
-                { en: "Be Back", th: "จะกลับมา" }
-            ]
-        },
-        // 75
-        {
-            q: "Who am I? (Sci-fi Hunter)", q_th: "ฉันคือใคร? (นักล่าไซ-ไฟ)",
-            a: "Predator", a_th: "พรีเดเตอร์",
-            clues: [
-                { en: "Cloak", th: "พรางตัว" },
-                { en: "Dreadlocks", th: "ผมเดรดล็อกส์" },
-                { en: "Mandibles", th: "กราม" },
-                { en: "Thermal", th: "อินฟราเรด" },
-                { en: "Trophy", th: "ถ้วยรางวัล" }
-            ]
-        },
-        // 76
-        {
-            q: "Who am I? (Fantasy Hero)", q_th: "ฉันคือใคร? (ฮีโร่แฟนตาซี)",
-            a: "Frodo Baggins", a_th: "โฟรโด แบ๊กกิ้นส์",
-            clues: [
-                { en: "Shire", th: "ไชร์" },
-                { en: "Mithril", th: "มิธริล" },
-                { en: "Sting", th: "ดาบสติง" },
-                { en: "Burden", th: "ภาระ" },
-                { en: "Ringbearer", th: "ผู้ถือแหวน" }
-            ]
-        },
-        // 77
-        {
-            q: "Who am I? (Fantasy Archer)", q_th: "ฉันคือใคร? (พลธนูแฟนตาซี)",
-            a: "Legolas", a_th: "เลโกลัส",
-            clues: [
-                { en: "Bow", th: "ธนู" },
-                { en: "Elf", th: "เอลฟ์" },
-                { en: "Shield Surfing", th: "สไลด์โล่" },
-                { en: "Gimli", th: "กิมลี" },
-                { en: "Count", th: "นับจำนวนตาย" }
-            ]
-        },
-        // 78
-        {
-            q: "Who am I? (Fantasy Wizard)", q_th: "ฉันคือใคร? (พ่อมดแฟนตาซี)",
-            a: "Gandalf", a_th: "แกนดัล์ฟ",
-            clues: [
-                { en: "Staff", th: "ไม้เท้า" },
-                { en: "Fireworks", th: "ดอกไม้ไฟ" },
-                { en: "Gray", th: "สีเทา" },
-                { en: "Balrog", th: "บัลร็อก" },
-                { en: "Eagles", th: "นกอินทรี" }
-            ]
-        },
-        // 79
-        {
-            q: "Who am I? (Fantasy Wizard)", q_th: "ฉันคือใคร? (พ่อมดแฟนตาซี)",
-            a: "Harry Potter", a_th: "แฮร์รี่ พอตเตอร์",
-            clues: [
-                { en: "Scar", th: "รอยแผลเป็น" },
-                { en: "Glasses", th: "แว่นตา" },
-                { en: "Owl", th: "นกฮูก" },
-                { en: "Seeker", th: "ซีกเกอร์" },
-                { en: "Parseltongue", th: "พาร์เซลทัง" }
-            ]
-        },
-        // 80
-        {
-            q: "Who am I? (Fantasy Witch)", q_th: "ฉันคือใคร? (แม่มดแฟนตาซี)",
-            a: "Hermione Granger", a_th: "เฮอร์ไมโอนี่ เกรนเจอร์",
-            clues: [
-                { en: "Books", th: "หนังสือ" },
-                { en: "Mudblood", th: "เลือดสีโคลน" },
-                { en: "Time-Turner", th: "นาฬิกาย้อนเวลา" },
-                { en: "Leviosa", th: "เลวีโอซ่า" },
-                { en: "Cat", th: "แมว" }
-            ]
-        },
-        // 81
-        {
-            q: "Who am I? (Fantasy Warrior)", q_th: "ฉันคือใคร? (นักรบแฟนตาซี)",
-            a: "Jon Snow", a_th: "จอน สโนว์",
-            clues: [
-                { en: "Bastard", th: "ลูกนอกสมรส" },
-                { en: "Direwolf", th: "หมาป่าโลกันตร์" },
-                { en: "Wall", th: "กำแพง" },
-                { en: "Nothing", th: "ไม่รู้อะไรเลย" },
-                { en: "Watch", th: "หน่วยพิทักษ์" }
-            ]
-        },
-        // 82
-        {
-            q: "Who am I? (Fantasy Queen)", q_th: "ฉันคือใคร? (ราชินีแฟนตาซี)",
-            a: "Daenerys Targaryen", a_th: "แดเนอริส ทาร์แกเรียน",
-            clues: [
-                { en: "Dragons", th: "มังกร" },
-                { en: "Fire", th: "ไฟ" },
-                { en: "Silver Hair", th: "ผมสีเงิน" },
-                { en: "Breaker", th: "ผู้ปลดแอก" },
-                { en: "Throne", th: "บัลลังก์" }
-            ]
-        },
-        // 83
-        {
-            q: "Who am I? (TV Politician)", q_th: "ฉันคือใคร? (นักการเมืองซีรีส์)",
-            a: "Tyrion Lannister", a_th: "ทีเรียน แลนนิสเตอร์",
-            clues: [
-                { en: "Wine", th: "ไวน์" },
-                { en: "Scars", th: "รอยแผลเป็น" },
-                { en: "Crossbow", th: "หน้าไม้" },
-                { en: "Hand", th: "หัตถ์" },
-                { en: "Debts", th: "หนี้สิน" }
-            ]
-        },
-        // 84
-        {
-            q: "Who am I? (Horror Villain)", q_th: "ฉันคือใคร? (ตัวร้ายสยองขวัญ)",
-            a: "Freddy Krueger", a_th: "เฟรดดี้ ครูเกอร์",
-            clues: [
-                { en: "Boiler Room", th: "ห้องหม้อไท" },
-                { en: "Stripes", th: "เสื้อลายขวาง" },
-                { en: "Fedora", th: "หมวกเฟโดรา" },
-                { en: "Claws", th: "กรงเล็บเหล็ก" },
-                { en: "Dreams", th: "ความฝัน" }
-            ]
-        },
-        // 85
-        {
-            q: "Who am I? (Horror Villain)", q_th: "ฉันคือใคร? (ตัวร้ายสยองขวัญ)",
-            a: "Jason Voorhees", a_th: "เจสัน วอร์ฮีส์",
-            clues: [
-                { en: "Hockey Mask", th: "หน้ากากฮอกกี้" },
-                { en: "Machete", th: "มีดพร้า" },
-                { en: "Camp", th: "ค่ายพักแรม" },
-                { en: "Friday", th: "วันศุกร์" },
-                { en: "Lake", th: "ทะเลสาบ" }
-            ]
-        },
-        // 86
-        {
-            q: "Who am I? (Horror Villain)", q_th: "ฉันคือใคร? (ตัวร้ายสยองขวัญ)",
-            a: "Michael Myers", a_th: "ไมเคิล ไมเยอร์ส",
-            clues: [
-                { en: "Shatner Mask", th: "หน้ากากขาว" },
-                { en: "Coveralls", th: "ชุดหมี" },
-                { en: "Kitchen Knife", th: "มีดทำครัว" },
-                { en: "Halloween", th: "ฮาโลวีน" },
-                { en: "Silent", th: "เงียบ" }
-            ]
-        },
-        // 87
-        {
-            q: "Who am I? (Horror Clown)", q_th: "ฉันคือใคร? (ตัวตลกสยองขวัญ)",
-            a: "Pennywise", a_th: "เพนนีไวส์",
-            clues: [
-                { en: "Balloon", th: "ลูกโป่ง" },
-                { en: "Sewers", th: "ท่อระบายน้ำ" },
-                { en: "Derry", th: "เมืองเดอร์รี่" },
-                { en: "Clown", th: "ตัวตลก" },
-                { en: "Float", th: "ลอยได้" }
-            ]
-        },
-        // 88
-        {
-            q: "Who am I? (Horror Killer)", q_th: "ฉันคือใคร? (ฆาตกรสยองขวัญ)",
-            a: "Ghostface", a_th: "โกสต์เฟซ",
-            clues: [
-                { en: "Phone Call", th: "โทรศัพท์" },
-                { en: "Voice Changer", th: "เครื่องแปลงเสียง" },
-                { en: "Woodsboro", th: "วูดส์โบโร" },
-                { en: "Robe", th: "ชุดคลุม" },
-                { en: "Movies", th: "หนังสยองขวัญ" }
-            ]
-        },
-        // 89
-        {
-            q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)",
-            a: "Superman", a_th: "ซูเปอร์แมน",
-            clues: [
-                { en: "Cape", th: "ผ้าคลุม" },
-                { en: "S Symbol", th: "สัญลักษณ์เอส" },
-                { en: "Kryptonite", th: "คริปโตไนต์" },
-                { en: "Reporter", th: "นักข่าว" },
-                { en: "Metropolis", th: "เมโทรโพลิส" }
-            ]
-        },
-        // 90
-        {
-            q: "Who am I? (Superhero)", q_th: "ฉันคือใคร? (ซูเปอร์ฮีโร่)",
-            a: "Wonder Woman", a_th: "วันเดอร์วูแมน",
-            clues: [
-                { en: "Lasso", th: "บ่วงบาศ" },
-                { en: "Bracelets", th: "กำไล" },
-                { en: "Themyscira", th: "เทอมิสกีร่า" },
-                { en: "Shield", th: "โล่" },
-                { en: "Amazon", th: "แอมะซอน" }
-            ]
-        },
-        // 91
-        {
-            q: "Who am I? (Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่)",
-            a: "Deadpool", a_th: "เดดพูล",
-            clues: [
-                { en: "Chimichanga", th: "ชิมิชางก้า" },
-                { en: "Katanas", th: "ดาบคู่" },
-                { en: "Fourth Wall", th: "กำแพงที่สี่" },
-                { en: "Mercenary", th: "ทหารรับจ้าง" },
-                { en: "Regeneration", th: "ฟื้นฟูร่างกาย" }
-            ]
-        },
-        // 92
-        {
-            q: "Who am I? (Comic Villain)", q_th: "ฉันคือใคร? (ตัวร้ายคอมมิก)",
-            a: "Magneto", a_th: "แม็กนีโต",
-            clues: [
-                { en: "Helmet", th: "หมวกกันน็อก" },
-                { en: "Metal", th: "โลหะ" },
-                { en: "Brotherhood", th: "ภราดรภาพ" },
-                { en: "Chess", th: "หมากรุก" },
-                { en: "Mutant", th: "มนุษย์กลายพันธุ์" }
-            ]
-        },
-        // 93
-        {
-            q: "Who am I? (Comic Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่คอมมิก)",
-            a: "Venom", a_th: "เวน่อม",
-            clues: [
-                { en: "Symbiote", th: "ซิมไบโอต" },
-                { en: "Tongue", th: "ลิ้น" },
-                { en: "Sound", th: "คลื่นเสียง" },
-                { en: "Chocolate", th: "ช็อกโกแลต" },
-                { en: "We Are", th: "พวกเราคือ" }
-            ]
-        },
-        // 94
-        {
-            q: "Who am I? (Comic Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่คอมมิก)",
-            a: "Rorschach", a_th: "รอร์แชค",
-            clues: [
-                { en: "Inkblot", th: "หยดหมึก" },
-                { en: "Journal", th: "สมุดบันทึก" },
-                { en: "Trenchcoat", th: "เสื้อโค้ต" },
-                { en: "Compromise", th: "ประนีประนอม" },
-                { en: "Watchmen", th: "วอตช์เมน" }
-            ]
-        },
-        // 95
-        {
-            q: "Who am I? (Movie Boxer)", q_th: "ฉันคือใคร? (นักมวยจอเงิน)",
-            a: "Rocky Balboa", a_th: "ร็อคกี้ บัลบัว",
-            clues: [
-                { en: "Steps", th: "ขั้นบันได" },
-                { en: "Meat", th: "ซากเนื้อ" },
-                { en: "Eye", th: "ดวงตา" },
-                { en: "Apollo", th: "อะพอลโล" },
-                { en: "Adrian", th: "เอเดรียน" }
-            ]
-        },
-        // 96
-        {
-            q: "Who am I? (Movie Soldier)", q_th: "ฉันคือใคร? (ทหารจอเงิน)",
-            a: "John Rambo", a_th: "จอห์น แรมโบ้",
-            clues: [
-                { en: "Bow", th: "ธนู" },
-                { en: "Headband", th: "ผ้าโพกหัว" },
-                { en: "Jungle", th: "ป่าทึบ" },
-                { en: "First Blood", th: "เลือดแรก" },
-                { en: "Survival", th: "เอาชีวิตรอด" }
-            ]
-        },
-        // 97
-        {
-            q: "Who am I? (Movie Gladiator)", q_th: "ฉันคือใคร? (แกลดิเอเตอร์)",
-            a: "Maximus", a_th: "แม็กซิมัส",
-            clues: [
-                { en: "Gladiator", th: "นักรบเดนตาย" },
-                { en: "Wheat", th: "รวงข้าว" },
-                { en: "Arena", th: "ลานประลอง" },
-                { en: "Vengeance", th: "แก้แค้น" },
-                { en: "Entertained", th: "บันเทิงไหม" }
-            ]
-        },
-        // 98
-        {
-            q: "Who am I? (Animated TV)", q_th: "ฉันคือใคร? (อนิเมชันทีวี)",
-            a: "Homer Simpson", a_th: "โฮเมอร์ ซิมป์สัน",
-            clues: [
-                { en: "Donuts", th: "โดนัท" },
-                { en: "D'oh", th: "โด๊ะ" },
-                { en: "Nuclear", th: "นิวเคลียร์" },
-                { en: "Duff", th: "เบียร์ดัฟฟ์" },
-                { en: "Choke", th: "บีบคอ" }
-            ]
-        },
-        // 99
-        {
-            q: "Who am I? (Animated Fantasy)", q_th: "ฉันคือใคร? (แฟนตาซีอนิเมชัน)",
-            a: "Shrek", a_th: "เชร็ค",
-            clues: [
-                { en: "Swamp", th: "หนองน้ำ" },
-                { en: "Onion", th: "หัวหอม" },
-                { en: "Ogre", th: "ยักษ์โอกร" },
-                { en: "Donkey", th: "ลา" },
-                { en: "Fiona", th: "ฟิโอน่า" }
-            ]
-        },
-        // 100
-        {
-            q: "Who am I? (Animated TV)", q_th: "ฉันคือใคร? (อนิเมชันทีวี)",
-            a: "Eric Cartman", a_th: "เอริก คาร์ตแมน",
-            clues: [
-                { en: "Cheesy Poufs", th: "ขนมชีสพัฟส์" },
-                { en: "Authoritah", th: "อำนาจเด็ดขาด" },
-                { en: "Red Jacket", th: "แจ็กเก็ตแดง" },
-                { en: "Chili", th: "ชิลลี่" },
-                { en: "South Park", th: "เซาท์พาร์ก" }
-            ]
-        }
-    ],
+char_extreme: [
+    // 1
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Darth Vader", a_th: "ดาร์ธ เวเดอร์",
+        clues: [
+            { en: "Breathing", th: "หายใจ" },
+            { en: "Black Armor", th: "เกราะสีดำ" },
+            { en: "Chosen One", th: "ผู้ถูกเลือก" },
+            { en: "Mustafar", th: "มุสตาฟาร์" },
+            { en: "Red Blade", th: "ดาบสีแดง" },
+            { en: "Fatherhood", th: "ผู้เป็นพ่อ" }
+        ]
+    },
+    // 2
+    {
+        q: "Who am I? (Anime Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่อนิเมะ)",
+        a: "Lelouch vi Britannia", a_th: "ลูลูช วี บริทาเนีย",
+        clues: [
+            { en: "Chess Master", th: "เซียนหมากรุก" },
+            { en: "Left Eye", th: "ดวงตาซ้าย" },
+            { en: "Black Mask", th: "หน้ากากดำ" },
+            { en: "Area 11", th: "เขต 11" },
+            { en: "Requiem", th: "รีเควียม" },
+            { en: "Zero", th: "ซีโร่" }
+        ]
+    },
+    // 3
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Walter White", a_th: "วอลเตอร์ ไวท์",
+        clues: [
+            { en: "Teacher", th: "คุณครู" },
+            { en: "Albuquerque", th: "อัลบูเคอร์คี" },
+            { en: "99.1%", th: "99.1%" },
+            { en: "RV Lab", th: "รถค่ายกล" },
+            { en: "Heisenberg", th: "ไฮเซนเบิร์ก" }
+        ]
+    },
+    // 4
+    {
+        q: "Who am I? (Comic Villain)", q_th: "ฉันคือใคร? (ตัวร้ายคอมมิก)",
+        a: "Joker", a_th: "โจ๊กเกอร์",
+        clues: [
+            { en: "Magic Trick", th: "มายากล" },
+            { en: "Purple Suit", th: "สูทสีม่วง" },
+            { en: "Acid Vat", th: "บ่อเคมี" },
+            { en: "One Bad Day", th: "วันเลวร้าย" },
+            { en: "Green Hair", th: "ผมสีเขียว" }
+        ]
+    },
+    // 5
+    {
+        q: "Who am I? (Literature Character)", q_th: "ฉันคือใคร? (ตัวละครวรรณกรรม)",
+        a: "Sherlock Holmes", a_th: "เชอร์ล็อก โฮล์มส์",
+        clues: [
+            { en: "221B", th: "221บี" },
+            { en: "Violin", th: "ไวโอลิน" },
+            { en: "Nicotine", th: "นิโคติน" },
+            { en: "Moriarty", th: "โมริอาร์ตี" },
+            { en: "Deduction", th: "การอนุมาน" }
+        ]
+    },
+    // 6
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Severus Snape", a_th: "เซเวอรัส สเนป",
+        clues: [
+            { en: "Half-Blood", th: "เลือดผสม" },
+            { en: "Doe", th: "กวางตัวเมีย" },
+            { en: "Always", th: "ตลอดไป" },
+            { en: "Cauldron", th: "หม้อปรุงยา" },
+            { en: "Occlumency", th: "สกัดใจ" }
+        ]
+    },
+    // 7
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Thanos", a_th: "ธานอส",
+        clues: [
+            { en: "Balance", th: "สมดุล" },
+            { en: "Titan", th: "ไททัน" },
+            { en: "Dust", th: "ผุยผง" },
+            { en: "Snap", th: "ดีดนิ้ว" },
+            { en: "Inevitable", th: "ไม่อาจเลี่ยง" }
+        ]
+    },
+    // 8
+    {
+        q: "Who am I? (Anime Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่อนิเมะ)",
+        a: "Light Yagami", a_th: "ยาการิ ไลท์",
+        clues: [
+            { en: "Potato Chip", th: "มันฝรั่งทอด" },
+            { en: "Apples", th: "แอปเปิล" },
+            { en: "Heart Attack", th: "หัวใจวาย" },
+            { en: "Justice", th: "ความยุติธรรม" },
+            { en: "Kira", th: "คิระ" }
+        ]
+    },
+    // 9
+    {
+        q: "Who am I? (Gaming Character)", q_th: "ฉันคือใคร? (ตัวละครเกม)",
+        a: "Geralt of Rivia", a_th: "เกรอลท์ แห่ง ริเวีย",
+        clues: [
+            { en: "White Hair", th: "ผมสีขาว" },
+            { en: "Silver Sword", th: "ดาบเงิน" },
+            { en: "Gwent", th: "เกวนต์" },
+            { en: "Kaer Morhen", th: "แอร์ มอร์เฮน" },
+            { en: "Butcher", th: "คนเชือด" }
+        ]
+    },
+    // 10
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Hannibal Lecter", a_th: "ฮันนิบาล เล็กเตอร์",
+        clues: [
+            { en: "Chianti", th: "ไวน์เคียนติ" },
+            { en: "Fava Beans", th: "ถั่วฟาวา" },
+            { en: "Muzzle", th: "ตะกร้อครอบปาก" },
+            { en: "Clarice", th: "แคลริซ" },
+            { en: "Gourmet", th: "นักชิม" }
+        ]
+    },
+    // 11
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Patrick Bateman", a_th: "แพทริก เบตแมน",
+        clues: [
+            { en: "Business Card", th: "นามบัตร" },
+            { en: "Raincoat", th: "เสื้อกันฝน" },
+            { en: "Chainsaw", th: "เลื่อยยนต์" },
+            { en: "Dorsia", th: "ร้านดอร์เซีย" },
+            { en: "Wall Street", th: "วอลล์สตรีท" }
+        ]
+    },
+    // 12
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Godzilla", a_th: "ก็อตซิลลา",
+        clues: [
+            { en: "1954", th: "ปี 1954" },
+            { en: "Atomic", th: "นิวเคลียร์" },
+            { en: "Odo Island", th: "เกาะโอโดะ" },
+            { en: "Roar", th: "เสียงคำราม" },
+            { en: "King", th: "ราชา" }
+        ]
+    },
+    // 13
+    {
+        q: "Who am I? (Movie Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่ภาพยนตร์)",
+        a: "John Wick", a_th: "จอห์น วิค",
+        clues: [
+            { en: "Gold Coin", th: "เหรียญทอง" },
+            { en: "Mustang", th: "รถมัสแตง" },
+            { en: "Dog", th: "หมา" },
+            { en: "Pencil", th: "ดินสอ" }
+        ]
+    },
+    // 14
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Sauron", a_th: "เซารอน",
+        clues: [
+            { en: "Barad-dûr", th: "บารัดดูร์" },
+            { en: "Mount Doom", th: "ภูเขามรณะ" },
+            { en: "One Ring", th: "แหวนครองภพ" },
+            { en: "Eye", th: "ตา" }
+        ]
+    },
+    // 15
+    {
+        q: "Who am I? (Comic Hero)", q_th: "ฉันคือใคร? (ฮีโร่คอมมิก)",
+        a: "Tony Stark", a_th: "โทนี่ สตาร์ค",
+        clues: [
+            { en: "Cave", th: "ถ้ำ" },
+            { en: "Arc Reactor", th: "เตาปฏิกรณ์" },
+            { en: "Cheeseburger", th: "ชีสเบอร์เกอร์" },
+            { en: "JARVIS", th: "จาร์วิส" },
+            { en: "3000", th: "3000" }
+        ]
+    },
+    // 16
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Michael Scott", a_th: "ไมเคิล สกอตต์",
+        clues: [
+            { en: "Scranton", th: "สแครนตัน" },
+            { en: "Paper", th: "กระดาษ" },
+            { en: "Best Boss", th: "เจ้านายยอดเยี่ยม" },
+            { en: "She Said", th: "มุกเธอกล่าวไว้" },
+            { en: "Dundies", th: "รางวัลดันดี้" }
+        ]
+    },
+    // 17
+    {
+        q: "Who am I? (TV Villain)", q_th: "ฉันคือใคร? (ตัวร้ายซีรีส์)",
+        a: "Homelander", a_th: "โฮมแลนเดอร์",
+        clues: [
+            { en: "Flag Cape", th: "ผ้าคลุมลายธง" },
+            { en: "Milk", th: "นม" },
+            { en: "Vought", th: "วอท" },
+            { en: "Compound V", th: "สารคอมพาวด์วี" },
+            { en: "Laser Eyes", th: "เลเซอร์สายตา" }
+        ]
+    },
+    // 18
+    {
+        q: "Who am I? (Movie Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่ภาพยนตร์)",
+        a: "Tyler Durden", a_th: "ไทเลอร์ เดอร์เดน",
+        clues: [
+            { en: "Pink Soap", th: "สบู่สีชมพู" },
+            { en: "First Rule", th: "กฎข้อแรก" },
+            { en: "Mayhem", th: "เมย์แฮม" },
+            { en: "Project", th: "โปรเจกต์" },
+            { en: "Alter Ego", th: "อีกตัวตน" }
+        ]
+    },
+    // 19
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Gollum", a_th: "กอลลัม",
+        clues: [
+            { en: "Sméagol", th: "สมีโกล" },
+            { en: "Raw Fish", th: "ปลาดิบ" },
+            { en: "Riddles", th: "ปริศนาคำทาย" },
+            { en: "Precious", th: "ของรัก" },
+            { en: "Caves", th: "ถ้ำมืด" }
+        ]
+    },
+    // 20
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Neo", a_th: "นีโอ",
+        clues: [
+            { en: "Red Pill", th: "ยาสีแดง" },
+            { en: "Green Code", th: "โค้ดสีเขียว" },
+            { en: "Thomas", th: "โทมัส" },
+            { en: "Bullet Time", th: "หลบกระสุน" },
+            { en: "The One", th: "ผู้กอบกู้" }
+        ]
+    },
+    // 21
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Ellen Ripley", a_th: "เอลเลน ริปลีย์",
+        clues: [
+            { en: "Nostromo", th: "ยานนอสโตรโม" },
+            { en: "Jonesy", th: "แมวจอนซี่" },
+            { en: "Power Loader", th: "หุ่นยกของ" },
+            { en: "Acid Blood", th: "เลือดกรด" },
+            { en: "Xenomorph", th: "ซีโนมอร์ฟ" }
+        ]
+    },
+    // 22
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Indiana Jones", a_th: "อินเดียนา โจนส์",
+        clues: [
+            { en: "Whip", th: "แส้" },
+            { en: "Fedora", th: "หมวกเฟโดรา" },
+            { en: "Snakes", th: "งู" },
+            { en: "Boulder", th: "หินยักษ์" },
+            { en: "Archeology", th: "โบราณคดี" }
+        ]
+    },
+    // 23
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Captain Jack Sparrow", a_th: "กัปตันแจ็ค สแปร์โรว์",
+        clues: [
+            { en: "Rum", th: "เหล้ารัม" },
+            { en: "Broken Compass", th: "เข็มทิศพัง" },
+            { en: "Black Pearl", th: "เรือแบล็กเพิร์ล" },
+            { en: "Jar of Dirt", th: "ไหใส่ดิน" },
+            { en: "Captain", th: "คำว่ากัปตัน" }
+        ]
+    },
+    // 24
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Lord Voldemort", a_th: "ลอร์ด โวลเดอมอร์",
+        clues: [
+            { en: "Tom Riddle", th: "ทอม ริดเดิล" },
+            { en: "Horcrux", th: "ฮอร์ครักซ์" },
+            { en: "Green Light", th: "แสงสีเขียว" },
+            { en: "Nagini", th: "นากินี" },
+            { en: "No Nose", th: "ไร้จมูก" }
+        ]
+    },
+    // 25
+    {
+        q: "Who am I? (Gaming Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่เกม)",
+        a: "Kratos", a_th: "เครโทส",
+        clues: [
+            { en: "Ashes", th: "เถ้าถ่าน" },
+            { en: "Chains", th: "โซ่พันแขน" },
+            { en: "Red Tattoo", th: "รอยสักสีแดง" },
+            { en: "Boy", th: "ไอ้หนู" },
+            { en: "Axe", th: "ขวาน" }
+        ]
+    },
+    // 26
+    {
+        q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
+        a: "Link", a_th: "ลิงก์",
+        clues: [
+            { en: "Green Tunic", th: "ชุดเขียว" },
+            { en: "Hyrule", th: "ไฮรูล" },
+            { en: "Triforce", th: "ไตรฟอร์ซ" },
+            { en: "Master Sword", th: "ดาบมาสเตอร์" },
+            { en: "Mute", th: "ไม่พูด" }
+        ]
+    },
+    // 27
+    {
+        q: "Who am I? (Gaming Character)", q_th: "ฉันคือใคร? (ตัวละครเกม)",
+        a: "Mario", a_th: "มาริโอ้",
+        clues: [
+            { en: "Red Cap", th: "หมวกสีแดง" },
+            { en: "Plumber", th: "ช่างประปา" },
+            { en: "Mushroom", th: "เห็ด" },
+            { en: "Green Pipe", th: "ท่อสีเขียว" },
+            { en: "Bowser", th: "โบว์เซอร์" }
+        ]
+    },
+    // 28
+    {
+        q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
+        a: "Master Chief", a_th: "มาสเตอร์ชีฟ",
+        clues: [
+            { en: "Heavy Armor", th: "เกราะหนัก" },
+            { en: "John-117", th: "จอห์น-117" },
+            { en: "Gold Visor", th: "หน้ากากทอง" },
+            { en: "Cortana", th: "คอร์ทานา" },
+            { en: "Ringworld", th: "โลกวงแหวน" },
+            { en: "Spartan", th: "สปาร์ตัน" }
+        ]
+    },
+    // 29
+    {
+        q: "Who am I? (Gaming Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่เกม)",
+        a: "Arthur Morgan", a_th: "อาร์เธอร์ มอร์แกน",
+        clues: [
+            { en: "Van der Linde", th: "แก๊งฟานเดอร์ลินเดอ" },
+            { en: "Journal", th: "สมุดบันทึก" },
+            { en: "Tuberculosis", th: "วัณโรค" },
+            { en: "Redemption", th: "ไถ่บาป" },
+            { en: "Deer", th: "กวาง" }
+        ]
+    },
+    // 30
+    {
+        q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
+        a: "Solid Snake", a_th: "โซลิด สเนก",
+        clues: [
+            { en: "Cardboard Box", th: "กล่องกระดาษ" },
+            { en: "Bandana", th: "ผ้าโพกหัว" },
+            { en: "Foxhound", th: "ฟ็อกซ์ฮาวด์" },
+            { en: "Exclamation", th: "เครื่องหมายตกใจ" },
+            { en: "Metal Gear", th: "เมทัลเกียร์" }
+        ]
+    },
+    // 31
+    {
+        q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
+        a: "Cloud Strife", a_th: "คลาวด์ สไตรฟ์",
+        clues: [
+            { en: "Buster Sword", th: "ดาบยักษ์" },
+            { en: "SOLDIER", th: "ซัลเจอร์" },
+            { en: "Mako", th: "พลังงานมาโกะ" },
+            { en: "Midgar", th: "มิดการ์" },
+            { en: "One Wing", th: "ปีกเดียว" }
+        ]
+    },
+    // 32
+    {
+        q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
+        a: "Saitama", a_th: "ไซตามะ",
+        clues: [
+            { en: "Bald", th: "หัวโล้น" },
+            { en: "Yellow Suit", th: "ชุดสีเหลือง" },
+            { en: "Sale Day", th: "วันลดราคา" },
+            { en: "One Punch", th: "หมัดเดียว" },
+            { en: "Cyborg Disciple", th: "ศิษย์ไซบอร์ก" }
+        ]
+    },
+    // 33
+    {
+        q: "Who am I? (Anime Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่อนิเมะ)",
+        a: "Eren Yeager", a_th: "เอเรน เยเกอร์",
+        clues: [
+            { en: "Basement Key", th: "กุญแจห้องใต้ดิน" },
+            { en: "Rumbling", th: "การพิทักษ์พิภพ" },
+            { en: "Freedom", th: "อิสรภาพ" },
+            { en: "Attack Titan", th: "ไททันจู่โจม" },
+            { en: "Sea", th: "ทะเล" }
+        ]
+    },
+    // 34
+    {
+        q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
+        a: "Naruto Uzumaki", a_th: "นารูโตะ อุซึมากิ",
+        clues: [
+            { en: "Ramen", th: "ราเมง" },
+            { en: "Nine-Tails", th: "เก้าหาง" },
+            { en: "Shadow Clone", th: "คาถาแยกร่าง" },
+            { en: "Spiral Sphere", th: "กระสุนวงจักร" },
+            { en: "Hokage", th: "โฮคาเงะ" }
+        ]
+    },
+    // 35
+    {
+        q: "Who am I? (Anime Character)", q_th: "ฉันคือใคร? (ตัวละครอนิเมะ)",
+        a: "Satoru Gojo", a_th: "โกะโจ ซาโตรุ",
+        clues: [
+            { en: "Blindfold", th: "ผ้าปิดตา" },
+            { en: "Six Eyes", th: "หกเนตร" },
+            { en: "Limitless", th: "ไร้ขีดจำกัด" },
+            { en: "Domain", th: "อาณาเขต" },
+            { en: "Strongest", th: "แกร่งที่สุด" }
+        ]
+    },
+    // 36
+    {
+        q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
+        a: "Edward Elric", a_th: "เอ็ดเวิร์ด เอลริก",
+        clues: [
+            { en: "Automail", th: "แขนขาจักรกล" },
+            { en: "Short", th: "ตัวเตี้ย" },
+            { en: "Human Transmutation", th: "แปรธาตุมนุษย์" },
+            { en: "Red Stone", th: "ศิลาสีแดง" },
+            { en: "Fullmetal", th: "เหล็กไหล" }
+        ]
+    },
+    // 37
+    {
+        q: "Who am I? (Anime Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่อนิเมะ)",
+        a: "Guts", a_th: "กัทส์",
+        clues: [
+            { en: "Dragon Slayer", th: "ดาบฆ่ามังกร" },
+            { en: "Brand", th: "ตราประทับ" },
+            { en: "One Eye", th: "ตาข้างเดียว" },
+            { en: "Eclipse", th: "สุริยุปราคา" },
+            { en: "Black Swordsman", th: "นักดาบดำ" }
+        ]
+    },
+    // 38
+    {
+        q: "Who am I? (Comic Hero)", q_th: "ฉันคือใคร? (ฮีโร่คอมมิก)",
+        a: "Spider-Man", a_th: "สไปเดอร์แมน",
+        clues: [
+            { en: "Photographer", th: "ช่างภาพ" },
+            { en: "Responsibility", th: "ความรับผิดชอบ" },
+            { en: "Uncle", th: "ลุง" },
+            { en: "Web", th: "ใยแมงมุม" },
+            { en: "Sensors", th: "สัมผัสพิเศษ" }
+        ]
+    },
+    // 39
+    {
+        q: "Who am I? (Comic Hero)", q_th: "ฉันคือใคร? (ฮีโร่คอมมิก)",
+        a: "Batman", a_th: "แบทแมน",
+        clues: [
+            { en: "Billionaire", th: "มหาเศรษฐี" },
+            { en: "Cave", th: "ถ้ำ" },
+            { en: "Butler", th: "พ่อบ้าน" },
+            { en: "No Kill", th: "ไม่ฆ่า" },
+            { en: "Symbol", th: "สัญลักษณ์ค้างคาว" }
+        ]
+    },
+    // 40
+    {
+        q: "Who am I? (Comic Hero)", q_th: "ฉันคือใคร? (ฮีโร่คอมมิก)",
+        a: "Wolverine", a_th: "วูล์ฟเวอรีน",
+        clues: [
+            { en: "Cigar", th: "ซิการ์" },
+            { en: "Adamantium", th: "อะดาแมนเทียม" },
+            { en: "Healing Factor", th: "พลังรักษาตัว" },
+            { en: "Claws", th: "กรงเล็บ" },
+            { en: "Yellow Suit", th: "ชุดสีเหลือง" }
+        ]
+    },
+    // 41
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Paul Atreides", a_th: "พอล อะเทรดีส",
+        clues: [
+            { en: "Spice", th: "เครื่องเทศ" },
+            { en: "Worm", th: "หนอนยักษ์" },
+            { en: "Arrakis", th: "ดาวอาร์ราคิส" },
+            { en: "Muad'Dib", th: "มูอัดดิบ" },
+            { en: "Blue Eyes", th: "ตาสีฟ้า" }
+        ]
+    },
+    // 42
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Saul Goodman", a_th: "ซอล กู๊ดแมน",
+        clues: [
+            { en: "Slippin' Jimmy", th: "จิมมี่จอมสับปลับ" },
+            { en: "Billboard", th: "ป้ายโฆษณา" },
+            { en: "Better Call", th: "สายตรงหา" },
+            { en: "Cell Phones", th: "มือถือเติมเงิน" },
+            { en: "Cinnabon", th: "ซินนาบอน" }
+        ]
+    },
+    // 43
+    {
+        q: "Who am I? (TV Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่ซีรีส์)",
+        a: "Dexter Morgan", a_th: "เดกซ์เตอร์ มอร์แกน",
+        clues: [
+            { en: "Blood Spatter", th: "รอยเลือด" },
+            { en: "Miami", th: "ไมอามี" },
+            { en: "Dark Passenger", th: "ผู้โดยสารสายมืด" },
+            { en: "Plastic Wrap", th: "พลาสติกถนอมอาหาร" },
+            { en: "Code of Harry", th: "กฎของแฮร์รี่" }
+        ]
+    },
+    // 44
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Tommy Shelby", a_th: "ทอมมี่ เชลบี้",
+        clues: [
+            { en: "Flat Cap", th: "หมวกแก๊ป" },
+            { en: "Razor Blade", th: "ใบมีดโกน" },
+            { en: "Birmingham", th: "เบอร์มิงแฮม" },
+            { en: "Cigarettes", th: "บุหรี่" },
+            { en: "Red Right Hand", th: "เพลงมือขวา" }
+        ]
+    },
+    // 45
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Wednesday Addams", a_th: "เวนส์เดย์ แอดดัมส์",
+        clues: [
+            { en: "Braids", th: "ผมเปีย" },
+            { en: "Thing", th: "มือดิ่ง" },
+            { en: "Nevermore", th: "เนเวอร์มอร์" },
+            { en: "Cello", th: "เชลโล" },
+            { en: "Dance", th: "เต้นรำสุดแปลก" }
+        ]
+    },
+    // 46
+    {
+        q: "Who am I? (Animated TV)", q_th: "ฉันคือใคร? (อนิเมชันทีวี)",
+        a: "Rick Sanchez", a_th: "ริก แซนเชซ",
+        clues: [
+            { en: "Portal Gun", th: "ปืนพอร์ทัล" },
+            { en: "Lab Coat", th: "เสื้อกาวน์" },
+            { en: "Pickle", th: "แตงกวาดอง" },
+            { en: "Grandson", th: "หลานชาย" },
+            { en: "Burp", th: "เรอ" }
+        ]
+    },
+    // 47
+    {
+        q: "Who am I? (Animated TV)", q_th: "ฉันคือใคร? (อนิเมชันทีวี)",
+        a: "BoJack Horseman", a_th: "โบแจ็ก ฮอร์สแมน",
+        clues: [
+            { en: "90s Show", th: "โชว์ยุค 90" },
+            { en: "Hollywoo", th: "ฮอลลีวู" },
+            { en: "Whiskey", th: "วิสกี้" },
+            { en: "Sweater", th: "เสื้อกันหนาว" },
+            { en: "Horse", th: "ม้า" }
+        ]
+    },
+    // 48
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Eleven", a_th: "อิเลฟเวน",
+        clues: [
+            { en: "Eggo", th: "ขนมรังผึ้ง" },
+            { en: "Nosebleed", th: "เลือดกำเดา" },
+            { en: "Telekinesis", th: "พลังจิต" },
+            { en: "Hawkins", th: "ฮอว์กินส์" },
+            { en: "Upside Down", th: "โลกขนาน" }
+        ]
+    },
+    // 49
+    {
+        q: "Who am I? (Animated TV)", q_th: "ฉันคือใคร? (อนิเมชันทีวี)",
+        a: "Jinx", a_th: "จิงซ์",
+        clues: [
+            { en: "Blue Braids", th: "ผมเปียสีฟ้า" },
+            { en: "Zaun", th: "ซอน" },
+            { en: "Fishbones", th: "ปืนใหญ่จรวด" },
+            { en: "Arcane", th: "อาร์เคน" },
+            { en: "Graffiti", th: "รอยพ่นสี" }
+        ]
+    },
+    // 50
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Agent Smith", a_th: "เอเจนต์ สมิธ",
+        clues: [
+            { en: "Earpiece", th: "หูฟังไร้สาย" },
+            { en: "Sunglasses", th: "แว่นกันแดด" },
+            { en: "Mr. Anderson", th: "มิสเตอร์แอนเดอร์สัน" },
+            { en: "Virus", th: "ไวรัส" },
+            { en: "Clones", th: "ร่างก๊อปปี้" }
+        ]
+    },
+    // 51
+    {
+        q: "Who am I? (Gaming Villain)", q_th: "ฉันคือใคร? (ตัวร้ายเกม)",
+        a: "Sephiroth", a_th: "เซฟิรอธ",
+        clues: [
+            { en: "Masamune", th: "ดาบยาวพิเศษ" },
+            { en: "One Wing", th: "ปีกเดียว" },
+            { en: "Silver Hair", th: "ผมเงิน" },
+            { en: "Jenova", th: "เจโนวา" },
+            { en: "Meteor", th: "อุกกาบาต" }
+        ]
+    },
+    // 52
+    {
+        q: "Who am I? (Gaming Villain)", q_th: "ฉันคือใคร? (ตัวร้ายเกม)",
+        a: "GLaDOS", a_th: "กลาดอส",
+        clues: [
+            { en: "Cake", th: "เค้กโกหก" },
+            { en: "Neurotoxin", th: "แก๊สพิษ" },
+            { en: "Potato", th: "มันฝรั่ง" },
+            { en: "Aperture", th: "แอเพอร์เจอร์" },
+            { en: "Science", th: "วิทยาศาสตร์" }
+        ]
+    },
+    // 53
+    {
+        q: "Who am I? (Gaming Villain)", q_th: "ฉันคือใคร? (ตัวร้ายเกม)",
+        a: "Vergil", a_th: "เวอร์จิล",
+        clues: [
+            { en: "Yamato", th: "ดาบยามาโตะ" },
+            { en: "More Power", th: "พลังมากกว่านี้" },
+            { en: "Blue Coat", th: "โค้ตสีน้ำเงิน" },
+            { en: "Motivated", th: "มีแรงจูงใจ" },
+            { en: "Twin", th: "ฝาแฝด" }
+        ]
+    },
+    // 54
+    {
+        q: "Who am I? (Gaming Character)", q_th: "ฉันคือใคร? (ตัวละครเกม)",
+        a: "Sans", a_th: "แซนส์",
+        clues: [
+            { en: "Blue Eye", th: "ตาสีฟ้า" },
+            { en: "Ketchup", th: "ซอสมะเขือเทศ" },
+            { en: "Bad Time", th: "ช่วงเวลาแย่ๆ" },
+            { en: "Skeletons", th: "โครงกระดูก" },
+            { en: "Jokes", th: "ตลกโปกฮา" }
+        ]
+    },
+    // 55
+    {
+        q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
+        a: "Doom Slayer", a_th: "ดูมสเลเยอร์",
+        clues: [
+            { en: "Shotgun", th: "ลูกซอง" },
+            { en: "Demons", th: "ปีศาจ" },
+            { en: "Mars", th: "ดาวอังคาร" },
+            { en: "BFG", th: "บีเอฟจี" },
+            { en: "Rip Tear", th: "ฉีกกระชาก" }
+        ]
+    },
+    // 56
+    {
+        q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
+        a: "Gordon Freeman", a_th: "กอร์ดอน ฟรีแมน",
+        clues: [
+            { en: "Crowbar", th: "ชะแลง" },
+            { en: "Gravity Gun", th: "ปืนแรงโน้มถ่วง" },
+            { en: "HEV Suit", th: "ชุดป้องกัน" },
+            { en: "Black Mesa", th: "แบล็กเมซา" },
+            { en: "Mute", th: "ไม่พูด" }
+        ]
+    },
+    // 57
+    {
+        q: "Who am I? (Gaming Hero)", q_th: "ฉันคือใคร? (ฮีโร่เกม)",
+        a: "Lara Croft", a_th: "ลาร่า ครอฟต์",
+        clues: [
+            { en: "Dual Pistols", th: "ปืนคู่" },
+            { en: "Tomb", th: "สุสานโบราณ" },
+            { en: "Croft Manor", th: "คฤหาสน์ครอฟต์" },
+            { en: "Relics", th: "วัตถุโบราณ" },
+            { en: "Survivor", th: "ผู้รอดชีวิต" }
+        ]
+    },
+    // 58
+    {
+        q: "Who am I? (Gaming Character)", q_th: "ฉันคือใคร? (ตัวละครเกม)",
+        a: "Sub-Zero", a_th: "ซับซีโร่",
+        clues: [
+            { en: "Ice", th: "น้ำแข็ง" },
+            { en: "Ninja Mask", th: "หน้ากากนินจา" },
+            { en: "Lin Kuei", th: "สำนักหลินเยว่" },
+            { en: "Spine", th: "กระดูกสันหลัง" },
+            { en: "Blue Armor", th: "ชุดสีฟ้า" }
+        ]
+    },
+    // 59
+    {
+        q: "Who am I? (Gaming Character)", q_th: "ฉันคือใคร? (ตัวละครเกม)",
+        a: "Scorpion", a_th: "สคอร์เปียน",
+        clues: [
+            { en: "Spear", th: "หอกเชือก" },
+            { en: "Get Over Here", th: "เข้ามานี่" },
+            { en: "Hellfire", th: "เพลิงนรก" },
+            { en: "Shirai Ryu", th: "ชิไรริว" },
+            { en: "Yellow Armor", th: "ชุดสีเหลือง" }
+        ]
+    },
+    // 60
+    {
+        q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
+        a: "Monkey D. Luffy", a_th: "มังกี้ ดี ลูฟี่",
+        clues: [
+            { en: "Straw Hat", th: "หมวกฟาง" },
+            { en: "Meat", th: "เนื้อสัตว์" },
+            { en: "Rubber", th: "ยางยืด" },
+            { en: "Gears", th: "เกียร์" },
+            { en: "King", th: "ราชา" }
+        ]
+    },
+    // 61
+    {
+        q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
+        a: "Goku", a_th: "โกคู",
+        clues: [
+            { en: "Tail", th: "หาง" },
+            { en: "Golden Hair", th: "ผมสีทอง" },
+            { en: "Flying Cloud", th: "เมฆสีทอง" },
+            { en: "Turtle Gi", th: "ชุดสำนักเต่า" },
+            { en: "Spirit Bomb", th: "บอลเกงกิ" }
+        ]
+    },
+    // 62
+    {
+        q: "Who am I? (Anime Character)", q_th: "ฉันคือใคร? (ตัวละครอนิเมะ)",
+        a: "Kakashi Hatake", a_th: "ฮาตาเกะ คาคาชิ",
+        clues: [
+            { en: "Book", th: "หนังสืออ่านเล่น" },
+            { en: "Sharingan", th: "เนตรวงแหวน" },
+            { en: "Mask", th: "หน้ากาก" },
+            { en: "Lightning", th: "สายฟ้า" },
+            { en: "Copy", th: "ก๊อปปี้" }
+        ]
+    },
+    // 63
+    {
+        q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
+        a: "Roronoa Zoro", a_th: "โรโรโนอา โซโล",
+        clues: [
+            { en: "Three Swords", th: "ดาบสามเล่ม" },
+            { en: "Bandana", th: "ผ้าโพกหัว" },
+            { en: "Directionless", th: "หลงทาง" },
+            { en: "Marimo", th: "มาริโมะ" },
+            { en: "Sake", th: "สาเก" }
+        ]
+    },
+    // 64
+    {
+        q: "Who am I? (Anime Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่อนิเมะ)",
+        a: "Itachi Uchiha", a_th: "อุจิวะ อิทาจิ",
+        clues: [
+            { en: "Crows", th: "อีกา" },
+            { en: "Dango", th: "ดังโงะ" },
+            { en: "Massacre", th: "สังหารหมู่" },
+            { en: "Illusion", th: "คาถาลวงตา" },
+            { en: "Brother", th: "น้องชาย" }
+        ]
+    },
+    // 65
+    {
+        q: "Who am I? (Anime Character)", q_th: "ฉันคือใคร? (ตัวละครอนิเมะ)",
+        a: "L", a_th: "แอล",
+        clues: [
+            { en: "Sweets", th: "ของหวาน" },
+            { en: "Barefoot", th: "เท้าเปล่า" },
+            { en: "Crouch", th: "นั่งย่องๆ" },
+            { en: "Percent", th: "เปอร์เซ็นต์" },
+            { en: "Dark Circles", th: "ขอบตาดำ" }
+        ]
+    },
+    // 66
+    {
+        q: "Who am I? (Anime Villain)", q_th: "ฉันคือใคร? (ตัวร้ายอนิเมะ)",
+        a: "Makima", a_th: "มาคิมะ",
+        clues: [
+            { en: "Control", th: "ควบคุม" },
+            { en: "Bang", th: "เสียงปัง" },
+            { en: "Dogs", th: "สุนัข" },
+            { en: "Yellow Eyes", th: "ตาสีเหลือง" },
+            { en: "Chain", th: "โซ่ตรวน" }
+        ]
+    },
+    // 67
+    {
+        q: "Who am I? (Anime Hero)", q_th: "ฉันคือใคร? (ฮีโร่อิเมะ)",
+        a: "Levi Ackerman", a_th: "รีไว แอคเคอร์แมน",
+        clues: [
+            { en: "Clean Freak", th: "รักความสะอาด" },
+            { en: "Tea", th: "ชา" },
+            { en: "Cravat", th: "ผ้าพันคอ" },
+            { en: "Spin", th: "หมุนตัวฟัน" },
+            { en: "Humanity's Strongest", th: "แกร่งที่สุดในมนุษยชาติ" }
+        ]
+    },
+    // 68
+    {
+        q: "Who am I? (Anime Character)", q_th: "ฉันคือใคร? (ตัวละครอนิเมะ)",
+        a: "Vegeta", a_th: "เบจิต้า",
+        clues: [
+            { en: "Widow's Peak", th: "ตีนผมรูปหัวใจ" },
+            { en: "Prince", th: "เจ้าชาย" },
+            { en: "Scouter", th: "เครื่องวัดพลัง" },
+            { en: "Over 9000", th: "มากกว่า 9000" },
+            { en: "Pride", th: "ศักดิ์ศรี" }
+        ]
+    },
+    // 69
+    {
+        q: "Who am I? (Anime Villain)", q_th: "ฉันคือใคร? (ตัวร้ายอนิเมะ)",
+        a: "Frieza", a_th: "ฟรีเซอร์",
+        clues: [
+            { en: "Forms", th: "ร่างแปลง" },
+            { en: "Emperor", th: "จักรพรรดิ" },
+            { en: "Planet Trade", th: "ค้าดวงดาว" },
+            { en: "Tail", th: "หาง" },
+            { en: "Monkeys", th: "พวกลิง" }
+        ]
+    },
+    // 70
+    {
+        q: "Who am I? (Anime Character)", q_th: "ฉันคือใคร? (ตัวละครอนิเมะ)",
+        a: "Spike Spiegel", a_th: "สไปค์ สปีเกล",
+        clues: [
+            { en: "Bebop", th: "บีบ็อป" },
+            { en: "Cigarette", th: "บุหรี่" },
+            { en: "Jeet Kune Do", th: "จีทคุนโด้" },
+            { en: "Space", th: "อวกาศ" },
+            { en: "Syndicate", th: "ซินดิเคต" }
+        ]
+    },
+    // 71
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Luke Skywalker", a_th: "ลุค สกายวอล์คเกอร์",
+        clues: [
+            { en: "Tatooine", th: "ทาทูอีน" },
+            { en: "Green Blade", th: "ดาบสีเขียว" },
+            { en: "Prosthetic Hand", th: "มือเทียม" },
+            { en: "X-Wing", th: "ยานเอ็กซ์วิง" },
+            { en: "Twin", th: "ฝาแฝด" }
+        ]
+    },
+    // 72
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Yoda", a_th: "โยดา",
+        clues: [
+            { en: "Swamp", th: "ปลักโคลน" },
+            { en: "Syntax", th: "สลับไวยากรณ์" },
+            { en: "Small", th: "ตัวเล็ก" },
+            { en: "900 Years", th: "อายุ 900 ปี" },
+            { en: "Grand Master", th: "ปรมาจารย์" }
+        ]
+    },
+    // 73
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Boba Fett", a_th: "โบบา เฟตต์",
+        clues: [
+            { en: "Jetpack", th: "เจ็ทแพ็ค" },
+            { en: "Sarlacc", th: "หนอนพิท" },
+            { en: "Clone", th: "ร่างโคลน" },
+            { en: "Mandalorian Armor", th: "เกราะแมนดาโลเรียน" },
+            { en: "Slave I", th: "ยานสเลฟวัน" }
+        ]
+    },
+    // 74
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "James Bond", a_th: "เจมส์ บอนด์",
+        clues: [
+            { en: "Martini", th: "มาตินี่" },
+            { en: "Tuxedo", th: "ชุดทักซิโด้" },
+            { en: "Aston Martin", th: "แอสตัน มาร์ติน" },
+            { en: "Walther PPK", th: "ปืนวอลเธอร์" },
+            { en: "Shaken", th: "เขย่าไม่ชง" }
+        ]
+    },
+    // 75
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Aragorn", a_th: "อารากอร์น",
+        clues: [
+            { en: "Ranger", th: "คนพเนจร" },
+            { en: "Reforged Blade", th: "ดาบตีใหม่" },
+            { en: "Healer", th: "คนรักษา" },
+            { en: "Oathbreakers", th: "กองทัพภูต" },
+            { en: "Crown", th: "มงกุฎ" }
+        ]
+    },
+    // 76
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Frodo Baggins", a_th: "โฟรโด แบ๊กกิ้นส์",
+        clues: [
+            { en: "Shire", th: "ไชร์" },
+            { en: "Mithril", th: "มิธริล" },
+            { en: "Sting", th: "ดาบสติง" },
+            { en: "Burden", th: "ภาระ" },
+            { en: "Ringbearer", th: "ผู้ถือแหวน" }
+        ]
+    },
+    // 77
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Legolas", a_th: "เลโกลัส",
+        clues: [
+            { en: "Bow", th: "ธนู" },
+            { en: "Elf", th: "เอลฟ์" },
+            { en: "Shield Surfing", th: "สไลด์โล่" },
+            { en: "Gimli", th: "กิมลี" },
+            { en: "Count", th: "นับจำนวนตาย" }
+        ]
+    },
+    // 78
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Gandalf", a_th: "แกนดัล์ฟ",
+        clues: [
+            { en: "Staff", th: "ไม้เท้า" },
+            { en: "Fireworks", th: "ดอกไม้ไฟ" },
+            { en: "Gray", th: "สีเทา" },
+            { en: "Balrog", th: "บัลร็อก" },
+            { en: "Eagles", th: "นกอินทรี" }
+        ]
+    },
+    // 79
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Harry Potter", a_th: "แฮร์รี่ พอตเตอร์",
+        clues: [
+            { en: "Scar", th: "รอยแผลเป็น" },
+            { en: "Glasses", th: "แว่นตา" },
+            { en: "Owl", th: "นกฮูก" },
+            { en: "Broomstick", th: "ไม้กวาด" },
+            { en: "Boy Who Lived", th: "เด็กชายผู้รอดชีวิต" }
+        ]
+    },
+    // 80
+    {
+        q: "Who am I? (Movie Character)", q_th: "ฉันคือใคร? (ตัวละครภาพยนตร์)",
+        a: "Hermione Granger", a_th: "เฮอร์ไมโอนี่ เกรนเจอร์",
+        clues: [
+            { en: "Books", th: "หนังสือ" },
+            { en: "Otter", th: "นาก" },
+            { en: "Time-Turner", th: "เครื่องย้อนเวลา" },
+            { en: "Bushy Hair", th: "ผมฟู" },
+            { en: "Levitation", th: "คาถายกของ" }
+        ]
+    },
+    // 81
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Jon Snow", a_th: "จอน สโนว์",
+        clues: [
+            { en: "Knows Nothing", th: "ไม่รู้อะไรเลย" },
+            { en: "Direwolf", th: "ไดร์วูล์ฟ" },
+            { en: "The Wall", th: "กำแพงผาหิน" },
+            { en: "Bastard", th: "ลูกนอกสมรส" },
+            { en: "Longclaw", th: "ดาบลองคลอว์" }
+        ]
+    },
+    // 82
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Daenerys Targaryen", a_th: "แดเนริส ทาร์แกเรียน",
+        clues: [
+            { en: "Silver Hair", th: "ผมสีเงิน" },
+            { en: "Dragons", th: "มังกร" },
+            { en: "Unburnt", th: "ผู้ไม่ถูกเผา" },
+            { en: "Breaker of Chains", th: "ผู้ปลดปลดโซ่ตรวน" },
+            { en: "Throne", th: "บัลลังก์" }
+        ]
+    },
+    // 83
+    {
+        q: "Who am I? (TV Series)", q_th: "ฉันคือใคร? (ซีรีส์ทีวี)",
+        a: "Tyrion Lannister", a_th: "ทีเรียน แลนนิสเตอร์",
+        clues: [
+            { en: "Wine", th: "ไวน์" },
+            { en: "Scars", th: "รอยแผลเป็น" },
+            { en: "Crossbow", th: "หน้าไม้" },
+            { en: "Hand", th: "หัตถ์" },
+            { en: "Debts", th: "หนี้สิน" }
+        ]
+    },
+    // 84
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Freddy Krueger", a_th: "เฟรดดี้ ครูเกอร์",
+        clues: [
+            { en: "Boiler Room", th: "ห้องหม้อไท" },
+            { en: "Stripes", th: "เสื้อลายขวาง" },
+            { en: "Fedora", th: "หมวกเฟโดรา" },
+            { en: "Claws", th: "กรงเล็บเหล็ก" },
+            { en: "Dreams", th: "ความฝัน" }
+        ]
+    },
+    // 85
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Jason Voorhees", a_th: "เจสัน วอร์ฮีส์",
+        clues: [
+            { en: "Hockey Mask", th: "หน้ากากฮอกกี้" },
+            { en: "Machete", th: "มีดพร้า" },
+            { en: "Camp", th: "ค่ายพักแรม" },
+            { en: "Friday", th: "วันศุกร์" },
+            { en: "Lake", th: "ทะเลสาบ" }
+        ]
+    },
+    // 86
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Michael Myers", a_th: "ไมเคิล ไมเออร์ส",
+        clues: [
+            { en: "White Mask", th: "หน้ากากสีขาว" },
+            { en: "Kitchen Knife", th: "มีดทำครัว" },
+            { en: "Halloween", th: "วันฮาโลวีน" },
+            { en: "Silent", th: "เงียบเชียบ" },
+            { en: "Babysitter", th: "คนเลี้ยงเด็ก" }
+        ]
+    },
+    // 87
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Pennywise", a_th: "เพนนี้ไวส์",
+        clues: [
+            { en: "Red Balloon", th: "ลูกโป่งสีแดง" },
+            { en: "Sewer", th: "ท่อระบายน้ำ" },
+            { en: "Clown", th: "ตัวตลก" },
+            { en: "27 Years", th: "27 ปี" },
+            { en: "Float", th: "ลอยได้" }
+        ]
+    },
+    // 88
+    {
+        q: "Who am I? (Comic Hero)", q_th: "ฉันคือใคร? (ฮีโร่คอมมิก)",
+        a: "Superman", a_th: "ซูเปอร์แมน",
+        clues: [
+            { en: "Cape", th: "ผ้าคลุม" },
+            { en: "Glasses", th: "แว่นตา" },
+            { en: "Kryptonite", th: "คริปโตไนต์" },
+            { en: "Reporter", th: "นักข่าว" },
+            { en: "Metropolis", th: "เมโทรโพลิส" }
+        ]
+    },
+    // 89
+    {
+        q: "Who am I? (Comic Hero)", q_th: "ฉันคือใคร? (ฮีโร่คอมมิก)",
+        a: "Captain America", a_th: "กัปตันอเมริกา",
+        clues: [
+            { en: "Shield", th: "โล่" },
+            { en: "Ice", th: "น้ำแข็ง" },
+            { en: "Serum", th: "เซรุ่ม" },
+            { en: "Star", th: "ดาว" },
+            { en: "1940s", th: "ยุค 1940" }
+        ]
+    },
+    // 90
+    {
+        q: "Who am I? (Comic Hero)", q_th: "ฉันคือใคร? (ฮีโร่คอมมิก)",
+        a: "Wonder Woman", a_th: "วันเดอร์วูแมน",
+        clues: [
+            { en: "Lasso", th: "บ่วงบาศ" },
+            { en: "Bracelets", th: "กำไล" },
+            { en: "Themyscira", th: "เทอมิสกีร่า" },
+            { en: "Shield", th: "โล่" },
+            { en: "Amazon", th: "แอมะซอน" }
+        ]
+    },
+    // 91
+    {
+        q: "Who am I? (Comic Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่คอมมิก)",
+        a: "Deadpool", a_th: "เดดพูล",
+        clues: [
+            { en: "Chimichanga", th: "ชิมิชางก้า" },
+            { en: "Katanas", th: "ดาบคู่" },
+            { en: "Fourth Wall", th: "กำแพงที่สี่" },
+            { en: "Mercenary", th: "ทหารรับจ้าง" },
+            { en: "Regeneration", th: "ฟื้นฟูร่างกาย" }
+        ]
+    },
+    // 92
+    {
+        q: "Who am I? (Comic Villain)", q_th: "ฉันคือใคร? (ตัวร้ายคอมมิก)",
+        a: "Magneto", a_th: "แมกนีโต",
+        clues: [
+            { en: "Metal", th: "โลหะ" },
+            { en: "Helmet", th: "หมวกเหล็ก" },
+            { en: "Brotherhood", th: "ภราดรภาพ" },
+            { en: "Coin", th: "เหรียญ" },
+            { en: "Purple Cape", th: "ผ้าคลุมสีม่วง" }
+        ]
+    },
+    // 93
+    {
+        q: "Who am I? (Comic Anti-hero)", q_th: "ฉันคือใคร? (แอนตี้ฮีโร่คอมมิก)",
+        a: "The Punisher", a_th: "เดอะ พันนิชเชอร์",
+        clues: [
+            { en: "Skull Shirt", th: "เสื้อลายหัวกะโหลก" },
+            { en: "Vengeance", th: "การแก้แค้น" },
+            { en: "Arsenal", th: "คลังแสง" },
+            { en: "Marine", th: "นาวิกโยธิน" },
+            { en: "No Mercy", th: "ไร้ความปรานี" }
+        ]
+    },
+    // 94
+    {
+        q: "Who am I? (Movie Villain)", q_th: "ฉันคือใคร? (ตัวร้ายภาพยนตร์)",
+        a: "Norman Bates", a_th: "นอร์แมน เบตส์",
+        clues: [
+            { en: "Motel", th: "โมเต็ล" },
+            { en: "Shower", th: "ฝักบัว" },
+            { en: "Mother", th: "แม่" },
+            { en: "Taxidermy", th: "การสตัฟฟ์สัตว์" },
+            { en: "Knife", th: "มีด" }
+        ]
+    },
+    // 95
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Katniss Everdeen", a_th: "แคตนิส เอเวอร์ดีน",
+        clues: [
+            { en: "Bow", th: "ธนู" },
+            { en: "Mockingjay", th: "ม็อกกิ้งเจย์" },
+            { en: "District 12", th: "เขต 12" },
+            { en: "Volunteer", th: "อาสาสมัคร" },
+            { en: "Berries", th: "ผลเบอร์รี่" }
+        ]
+    },
+    // 96
+    {
+        q: "Who am I? (Animated Movie)", q_th: "ฉันคือใคร? (อนิเมชันภาพยนตร์)",
+        a: "WALL-E", a_th: "วอลล์-อี",
+        clues: [
+            { en: "Trash", th: "ขยะ" },
+            { en: "Plant", th: "ต้นไม้เล็ก" },
+            { en: "Cockroach", th: "แมลงสาบ" },
+            { en: "EVE", th: "อีฟ" },
+            { en: "Solar", th: "พลังงานแสงอาทิตย์" }
+        ]
+    },
+    // 97
+    {
+        q: "Who am I? (Movie Hero)", q_th: "ฉันคือใคร? (ฮีโร่ภาพยนตร์)",
+        a: "Maximus", a_th: "แม็กซิมัส",
+        clues: [
+            { en: "Gladiator", th: "นักรบเดนตาย" },
+            { en: "Wheat", th: "รวงข้าว" },
+            { en: "Arena", th: "ลานประลอง" },
+            { en: "Vengeance", th: "แก้แค้น" },
+            { en: "Entertained", th: "บันเทิงไหม" }
+        ]
+    },
+    // 98
+    {
+        q: "Who am I? (Animated TV)", q_th: "ฉันคือใคร? (อนิเมชันทีวี)",
+        a: "Homer Simpson", a_th: "โฮเมอร์ ซิมป์สัน",
+        clues: [
+            { en: "Donuts", th: "โดนัท" },
+            { en: "D'oh", th: "โด๊ะ" },
+            { en: "Nuclear", th: "นิวเคลียร์" },
+            { en: "Duff", th: "เบียร์ดัฟฟ์" },
+            { en: "Choke", th: "บีบคอ" }
+        ]
+    },
+    // 99
+    {
+        q: "Who am I? (Animated Movie)", q_th: "ฉันคือใคร? (อนิเมชันภาพยนตร์)",
+        a: "Shrek", a_th: "เชร็ค",
+        clues: [
+            { en: "Swamp", th: "หนองน้ำ" },
+            { en: "Onion", th: "หัวหอม" },
+            { en: "Ogre", th: "ยักษ์โอกร" },
+            { en: "Donkey", th: "ลา" },
+            { en: "Fiona", th: "ฟิโอน่า" }
+        ]
+    },
+    // 100
+    {
+        q: "Who am I? (Animated Movie)", q_th: "ฉันคือใคร? (อนิเมชันภาพยนตร์)",
+        a: "Buzz Lightyear", a_th: "บัซ ไลท์เยียร์",
+        clues: [
+            { en: "Space Ranger", th: "พิทักษ์อวกาศ" },
+            { en: "Infinity", th: "สู่ความเวิ้งว้างอันไกลโพ้น" },
+            { en: "Laser", th: "เลเซอร์" },
+            { en: "Wings", th: "ปีก" },
+            { en: "Helmet", th: "หมวกแก้ว" }
+        ]
+    }
+],
 	facts: [
         { q: "In 1989, what product did the Soviet Union exchange a fleet of 17 submarines and warships for?", a: "Pepsi" },
         { q: "What animal did the Polish army officially enlist as a Private during WWII, who even helped carry artillery ammo?", a: "A Syrian Brown Bear (Wojtek)" },
